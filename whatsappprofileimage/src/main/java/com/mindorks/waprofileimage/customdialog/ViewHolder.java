@@ -57,7 +57,7 @@ public class ViewHolder implements Holder {
   @Override
   @NonNull
   public View getView(@NonNull LayoutInflater inflater, ViewGroup parent) {
-    View view = inflater.inflate(R.layout.dialog_view, parent, false);
+    View view = inflater.inflate(R.layout.layout_dialog, parent, false);
     View outMostView = view.findViewById(R.id.dialogcustomization_outmost_container);
     outMostView.setBackgroundResource(backgroundResource);
     ViewGroup contentContainer = view.findViewById(R.id.dialogcustomization_view_container);

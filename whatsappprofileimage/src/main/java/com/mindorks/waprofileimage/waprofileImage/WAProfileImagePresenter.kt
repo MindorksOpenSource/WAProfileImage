@@ -24,12 +24,10 @@ class WAProfileImagePresenter constructor(wAProfileImageView: WAProfileImageView
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             PermUtil.checkForCamara_WritePermissions(context, object : TaskFinished {
                 override fun onTaskFinished(check: Boolean?) {
-                    //TODO open Custom Dialog
                     showCustomeDialog(context, requestCode)
                 }
             })
         } else {
-            //TODO open Custom Dialog
             showCustomeDialog(context, requestCode)
 
         }

@@ -32,7 +32,7 @@ class SimpleAdapter(
     var view: View? = convertView
 
     if (view == null) {
-      view = layoutInflater.inflate(R.layout.simple_list_item, parent, false)
+      view = layoutInflater.inflate(R.layout.item_dialog, parent, false)
 
       viewHolder = ViewHolder(
           view.findViewById(R.id.text_view),
@@ -46,7 +46,7 @@ class SimpleAdapter(
     val context = parent.context
     when (position) {
       0 -> {
-        viewHolder.textView.text = context.getString(R.string.gallery__title)
+        viewHolder.textView.text = context.getString(R.string.gallery_title)
        // viewHolder.imageView.setImageResource(R.drawable.ic_google_plus_icon)
       }
       1 -> {
