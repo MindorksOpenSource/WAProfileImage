@@ -11,16 +11,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+
         android:text="@string/header_title"
-        android:textColor="@android:color/black"
+        android:textColor="@color/dialogcustomization_black_overlay"
         android:textSize="@dimen/header_text_size"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/header_sample"
-        android:textColor="@color/dialogcustomization_black_overlay"
-        android:textSize="12sp"/>
 
 </LinearLayout>
 

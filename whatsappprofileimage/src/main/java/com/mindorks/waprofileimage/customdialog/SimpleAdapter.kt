@@ -46,16 +46,16 @@ class SimpleAdapter(
     val context = parent.context
     when (position) {
       0 -> {
-        viewHolder.textView.text = context.getString(R.string.google_plus_title)
-        viewHolder.imageView.setImageResource(R.drawable.ic_google_plus_icon)
+        viewHolder.textView.text = context.getString(R.string.gallery__title)
+       // viewHolder.imageView.setImageResource(R.drawable.ic_google_plus_icon)
       }
       1 -> {
-        viewHolder.textView.text = context.getString(R.string.google_maps_title)
-        viewHolder.imageView.setImageResource(R.drawable.ic_google_maps_icon)
+        viewHolder.textView.text = context.getString(R.string.camera_title)
+       // viewHolder.imageView.setImageResource(R.drawable.ic_google_maps_icon)
       }
       else -> {
-        viewHolder.textView.text = context.getString(R.string.google_messenger_title)
-        viewHolder.imageView.setImageResource(R.drawable.ic_google_messenger_icon)
+        viewHolder.textView.text = context.getString(R.string.remove_photo_title)
+      //  viewHolder.imageView.setImageResource(R.drawable.ic_google_messenger_icon)
       }
     }
 

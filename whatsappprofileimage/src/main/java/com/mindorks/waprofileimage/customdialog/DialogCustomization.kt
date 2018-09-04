@@ -329,6 +329,7 @@ class DialogCustomization internal constructor(builder: DialogBuilder) {
             if (onClickListener == null) {
                 return@OnClickListener
             }
+
             onClickListener.onClick(this@DialogCustomization, v)
         })
     }
