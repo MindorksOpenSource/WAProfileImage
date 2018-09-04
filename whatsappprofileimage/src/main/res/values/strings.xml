@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">whatsappprofileimage</string>
+    <string name="google_plus_title">Google Plus</string>
+    <string name="google_maps_title">Maps</string>
+    <string name="google_messenger_title">Messenger</string>
+    <string name="header_title">Your title</string>
+    <string name="header_sample">SAMPLE HEADER</string>
+
 </resources>
