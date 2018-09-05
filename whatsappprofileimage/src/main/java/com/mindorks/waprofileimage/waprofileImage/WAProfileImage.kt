@@ -1,23 +1,30 @@
 package com.mindorks.waprofileimage.waprofileImage
 
-import android.annotation.SuppressLint
-import android.os.Bundle
+import android.content.Intent
+import android.os.Build
 import android.support.v4.app.FragmentActivity
-import android.support.v7.app.AppCompatActivity
-import android.view.MotionEvent
-import android.view.View
-import com.mindorks.waprofileimage.R
+import com.mindorks.waprofileimage.callback.TaskFinished
+import com.mindorks.waprofileimage.util.PermUtil
+import com.mindorks.waprofileimage.waprofileImage.wapprofileimageactivity.WAProfileImageActivity
 
-object WAProfileImage :  WAProfileImageView {
-   @SuppressLint("StaticFieldLeak")
-   private lateinit var presenter: WAProfileImagePresenter
-    override fun onTouch(p0: View?, p1: MotionEvent?): Boolean {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
 
-    override fun launch(context: FragmentActivity, requestCode: Int) {
-        presenter = WAProfileImagePresenter(this, context)
-        presenter.launchOptionDialog(context, requestCode)
+object WAProfileImage {
+    fun launch(context: FragmentActivity, requestCode: Int) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            PermUtil.checkForCamara_WritePermissions(context, object : TaskFinished {
+                override fun onTaskFinished(check: Boolean?) {
+                    val i = Intent(context, WAProfileImageActivity::class.java)
+                    i.putExtra(WAProfileImageActivity.REQUEST_CODE_KEY, requestCode);
+                    context.startActivityForResult(i, requestCode)
+                }
+            })
+        } else {
+            val i = Intent(context, WAProfileImageActivity::class.java)
+            context.startActivityForResult(i, requestCode)
+
+
+        }
+
 
     }
 

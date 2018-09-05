@@ -1,4 +1,4 @@
-package com.mindorks.waprofileimage.waprofileImage
+package com.mindorks.waprofileimage.waprofileImage.wapprofileimageactivity
 
 import android.support.v4.app.FragmentActivity
 
