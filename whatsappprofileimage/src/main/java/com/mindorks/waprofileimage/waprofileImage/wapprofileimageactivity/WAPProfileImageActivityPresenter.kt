@@ -81,13 +81,13 @@ class WAPProfileImageActivityPresenter constructor(wAProfileImageView: WAProfile
     private fun handleEachItemClicked(position: Int) {
         when (position) {
             -1 -> {
-                // TODO open Gallary and git the image path and set the new Result  Code
+                // TODO open Gallary and get the image path and set the new Result  Code
                 view!!.setNewResult(WAProfileImageActivity.RESPONSE_CODE_OPEN_GALLERY)
                 Toast.makeText(context, "Open Gallery", Toast.LENGTH_SHORT).show()
 
             }
             0 -> {
-                // TODO open Cam and git the image path and set the new Result  Code
+                // TODO open Cam and get the image path and set the new Result  Code
                 view!!.setNewResult(WAProfileImageActivity.RESPONSE_CODE_OPEN_CAMERA)
                 Toast.makeText(context, "Open Camera", Toast.LENGTH_SHORT).show()
 

@@ -20,6 +20,7 @@ object WAProfileImage {
             })
         } else {
             val i = Intent(context, WAProfileImageActivity::class.java)
+            i.putExtra(WAProfileImageActivity.REQUEST_CODE_KEY, requestCode);
             context.startActivityForResult(i, requestCode)
 
 

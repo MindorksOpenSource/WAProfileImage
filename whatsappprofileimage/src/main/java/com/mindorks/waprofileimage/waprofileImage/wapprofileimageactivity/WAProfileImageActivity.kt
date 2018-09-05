@@ -23,10 +23,9 @@ class WAProfileImageActivity : AppCompatActivity(), WAProfileImageView {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_waprofile_image)
-
+        setTitle(null)
         presenter = WAPProfileImageActivityPresenter(this, this)
-        presenter.launchOptionDialog(this,
-                intent.getIntExtra(REQUEST_CODE_KEY, REQUEST_CODE_DEFAULT_VALUE))
+        presenter.launchOptionDialog(this, intent.getIntExtra(REQUEST_CODE_KEY, REQUEST_CODE_DEFAULT_VALUE))
 
 
     }
