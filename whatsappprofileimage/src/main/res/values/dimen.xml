@@ -6,5 +6,7 @@
     <dimen name="dialogcustomization_default_center_margin">16dp</dimen>
     <dimen name="header_text_size">20sp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="frame_height">140dp</dimen>
+    <dimen name="image_button_padding">20dp</dimen>
 
 </resources>

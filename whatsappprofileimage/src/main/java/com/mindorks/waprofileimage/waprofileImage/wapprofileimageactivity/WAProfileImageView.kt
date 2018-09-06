@@ -11,5 +11,7 @@ interface WAProfileImageView :View.OnTouchListener{
     fun onViewFinished()
     fun setNewResult(resultCode:Int)
     fun setNewResult(resultCode:Int,data:Intent)
+    fun writeMessage(message:String)
+    fun openCamera()
 
 }

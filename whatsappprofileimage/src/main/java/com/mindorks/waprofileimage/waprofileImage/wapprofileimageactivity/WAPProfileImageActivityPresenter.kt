@@ -10,6 +10,7 @@ import com.mindorks.waprofileimage.customdialog.DialogCustomization
 import com.mindorks.waprofileimage.customdialog.ListHolder
 import com.mindorks.waprofileimage.customdialog.SimpleAdapter
 import com.mindorks.waprofileimage.customdialog.callback.*
+import com.mindorks.waprofileimage.waprofileImage.camera.Common
 
 class WAPProfileImageActivityPresenter constructor(wAProfileImageView: WAProfileImageView, ctx: Context)
     : WAProfileImagePresnterInterface, OnClickListener,
@@ -41,6 +42,7 @@ class WAPProfileImageActivityPresenter constructor(wAProfileImageView: WAProfile
     }
 
     override fun onItemClick(dialog: DialogCustomization, item: Any, view: View, position: Int) {
+        dialog.dismiss()
         handleEachItemClicked(position)
     }
 
@@ -70,7 +72,6 @@ class WAPProfileImageActivityPresenter constructor(wAProfileImageView: WAProfile
             setOnBackPressListener(this@WAPProfileImageActivityPresenter)
             setExpanded(false, 450)
             setOverlayBackgroundResource(android.R.color.transparent)
-
         }
 
         builder.create().show()
@@ -87,9 +88,8 @@ class WAPProfileImageActivityPresenter constructor(wAProfileImageView: WAProfile
 
             }
             0 -> {
-                // TODO open Cam and get the image path and set the new Result  Code
                 view!!.setNewResult(WAProfileImageActivity.RESPONSE_CODE_OPEN_CAMERA)
-                Toast.makeText(context, "Open Camera", Toast.LENGTH_SHORT).show()
+                showCameraView()
 
             }
             1 -> {
@@ -101,6 +101,13 @@ class WAPProfileImageActivityPresenter constructor(wAProfileImageView: WAProfile
         }
 
 
+    }
+
+    private fun showCameraView() {
+        /** Check if this device has a camera */
+       // if (!Common.checkCameraHardware(context)) view!!.writeMessage(context.getString(R.string.no_camera_error_message)); return
+
+        view!!.openCamera()
     }
 
 }

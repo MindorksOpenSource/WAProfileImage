@@ -7,16 +7,17 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <application
+    <uses-feature android:name="android.hardware.camera2.full" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
 
-        >
-
-
+    <application>
         <activity
             android:name=".waprofileImage.wapprofileimageactivity.WAProfileImageActivity"
             android:launchMode="singleInstance"
-            android:theme="@style/Theme.Transparent"
-
+            android:theme="@style/Theme.Transparent"></activity>
+        <activity
+            android:name=".waprofileImage.camera.CameraActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             >
 
         </activity>
