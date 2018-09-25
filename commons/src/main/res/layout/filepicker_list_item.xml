@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingEnd="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin">
+
+    <ImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="@dimen/normal_icon_size"
+        android:layout_height="@dimen/normal_icon_size"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/medium_margin"
+        android:src="@drawable/ic_folder"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/list_item_icon"
+        android:layout_toRightOf="@+id/list_item_icon"
+        android:padding="@dimen/small_margin">
+
+        <com.simplemobiletools.commons.views.MyTextView
+            android:id="@+id/list_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="Directory"/>
+
+        <com.simplemobiletools.commons.views.MyTextView
+            android:id="@+id/list_item_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_item_name"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/smaller_text_size"
+            tools:text="1 KB"/>
+    </RelativeLayout>
+</RelativeLayout>

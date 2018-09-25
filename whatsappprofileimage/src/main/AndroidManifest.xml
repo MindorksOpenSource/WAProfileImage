@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.mindorks.waprofileimage">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <uses-feature android:name="android.hardware.camera2.full" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
-
-    <application>
+    <application
+        tools:replace="android:appComponentFactory"
+        >
         <activity
             android:name=".waprofileImage.wapprofileimageactivity.WAProfileImageActivity"
             android:launchMode="singleInstance"
-            android:theme="@style/Theme.Transparent"></activity>
+            android:theme="@style/Theme.Transparent" />
         <activity
             android:name=".waprofileImage.camera.CameraActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            >
-
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".waprofileImage.newcam.activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity android:name=".waprofileImage.newcam.activities.SettingsActivity" />
+        <activity android:name=".waprofileImage.newcam.activities.SimpleActivity" />
+        <activity
+            android:name=".waprofileImage.newcam.activities.SplashActivity"
+            android:label="@string/title_activity_splash" />
     </application>
 
 </manifest>

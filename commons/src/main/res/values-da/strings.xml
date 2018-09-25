@@ -1,0 +1,560 @@
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuller</string>
+    <string name="save_as">Gem som</string>
+    <string name="file_saved">Fil gemt</string>
+    <string name="invalid_file_format">Ugyldigt filformat</string>
+    <string name="out_of_memory_error">Fejl, ikke mere plads</string>
+    <string name="an_error_occurred">Der opstod en fejl: %s</string>
+    <string name="open_with">Åbn med</string>
+    <string name="no_app_found">Der blev ikke fundet en gyldig app</string>
+    <string name="set_as">Anvend som</string>
+    <string name="value_copied_to_clipboard">Værdi kopieret til udklipsholder</string>
+    <string name="unknown">Ukendt</string>
+    <string name="always">Altid</string>
+    <string name="never">Aldrig</string>
+    <string name="details">Detaljer</string>
+    <string name="notes">Noter</string>
+    <string name="deleting_folder">Sletter mappen \'%s\'</string>
+    <string name="none">None</string>
+    <string name="label">Label</string>
+
+    <!-- Favorites -->
+    <string name="favorites">Bogmærker</string>
+    <string name="add_favorites">Tilføj bogmærker</string>
+    <string name="add_to_favorites">Føj til bogmærker</string>
+    <string name="remove_from_favorites">Fjern fra bogmærker</string>
+
+    <!-- Search -->
+    <string name="search">Søg</string>
+    <string name="type_2_characters">Start søgningen ved at skrive mindst to tegn.</string>
+
+    <!-- Filters -->
+    <string name="filter">Filter</string>
+    <string name="no_items_found">Intet fundet.</string>
+    <string name="change_filter">Skift filter</string>
+
+    <!-- Permissions -->
+    <string name="no_storage_permissions">Tilladelse til at gemme påkrævet</string>
+    <string name="no_contacts_permission">Adgang til kontakter påkrævet</string>
+    <string name="no_camera_permissions">Adgang til kamera påkrævet</string>
+    <string name="no_audio_permissions">Adgang til lyd påkrævet</string>
+
+    <!-- Renaming -->
+    <string name="rename_file">Omdøb fil</string>
+    <string name="rename_folder">Omdøb mappe</string>
+    <string name="rename_file_error">Kunne ikke omdøbe filen</string>
+    <string name="rename_folder_error">Kunne ikke omdøbe mappen</string>
+    <string name="rename_folder_empty">Mappen skal have et navn</string>
+    <string name="rename_folder_exists">Navnet bruges allerede af en anden mappe</string>
+    <string name="rename_folder_root">Kan ikke omdøbe lagerets rodmappe</string>
+    <string name="rename_folder_ok">Mappen er omdøbt</string>
+    <string name="renaming_folder">Omdøber mappe</string>
+    <string name="filename_cannot_be_empty">Filen skal have et navn</string>
+    <string name="filename_invalid_characters">Filnavnet indeholder ugyldige tegn</string>
+    <string name="filename_invalid_characters_placeholder">Filnavnet \"%s\" indeholder ugyldige tegn</string>
+    <string name="extension_cannot_be_empty">Filtypen kan ikke stå tom</string>
+    <string name="source_file_doesnt_exist">Kildefilen %s eksisterer ikke</string>
+
+    <!-- Copy / Move -->
+    <string name="copy">Kopier</string>
+    <string name="move">Flyt</string>
+    <string name="copy_move">Kopier/Flyt</string>
+    <string name="copy_to">Kopier til</string>
+    <string name="move_to">Flyt til</string>
+    <string name="source">Kilde</string>
+    <string name="destination">Destination</string>
+    <string name="select_destination">Vælg destination</string>
+    <string name="click_select_destination">Klik her for at vælge destination</string>
+    <string name="invalid_destination">Kunne ikke skrive til den valgte destination</string>
+    <string name="please_select_destination">Vælg en destination</string>
+    <string name="source_and_destination_same">Til og fra skal være forskellige</string>
+    <string name="copy_failed">Kunne ikke kopiere filerne</string>
+    <string name="copying">Kopierer…</string>
+    <string name="copying_success">Filerne er kopieret</string>
+    <string name="copy_move_failed">Der opstod en fejl</string>
+    <string name="moving">Flytter…</string>
+    <string name="moving_success">Filerne er flyttet</string>
+    <string name="moving_success_partial">Ikke alle filer blev flyttet</string>
+    <string name="copying_success_partial">Nogle filer blev ikke kopieret</string>
+    <string name="no_files_selected">Der er ikke valgt nogen filer</string>
+    <string name="saving">Gemmer…</string>
+    <string name="could_not_create_folder">Kunne ikke oprette mappen %s</string>
+    <string name="could_not_create_file">Kunne ikke oprette filen %s</string>
+
+    <!-- Create new -->
+    <string name="create_new">Opret ny</string>
+    <string name="folder">Mappe</string>
+    <string name="file">Fil</string>
+    <string name="create_new_folder">Opret en ny mappe</string>
+    <string name="name_taken">Navnet er allerede i brug</string>
+    <string name="invalid_name">Navnet indeholder ugyldige tegn</string>
+    <string name="empty_name">Skriv et navn</string>
+    <string name="unknown_error_occurred">Der opstod en ukendt fejl</string>
+
+    <!-- File operation conflicts -->
+    <string name="file_already_exists">Filen \"%s\" findes allerede</string>
+    <string name="file_already_exists_overwrite">Filen \"%s\" findes allerede. Overskriv?</string>
+    <string name="folder_already_exists">Mappen \"%s\" findes allerede</string>
+    <string name="merge">Sammenflet</string>
+    <string name="overwrite">Overskriv</string>
+    <string name="skip">Spring over</string>
+    <string name="append">Tilføj \"_1\"</string>
+    <string name="apply_to_all">Anvend på alle konflikter</string>
+
+    <!-- File picker -->
+    <string name="select_folder">Vælg en mappe</string>
+    <string name="select_file">Vælg en fil</string>
+    <string name="confirm_storage_access_title">Bekræft adgang til eksternt lager</string>
+    <string name="confirm_storage_access_text">Vælg SD-kortets rodmappe på næste side for at give skriveadgang til den.</string>
+    <string name="confirm_storage_access_text_sd">Hvis ikke du kan se SD-kortet kan du prøve dette</string>
+    <string name="confirm_selection">Bekræft valg</string>
+
+    <plurals name="items">
+        <item quantity="one">%d element</item>
+        <item quantity="other">%d elementer</item>
+    </plurals>
+
+    <!-- Are you sure you want to delete 5 items? -->
+    <plurals name="delete_items">
+        <item quantity="one">%d element</item>
+        <item quantity="other">%d elementer</item>
+    </plurals>
+
+    <plurals name="deleting_items">
+        <item quantity="one">Sletter %d element</item>
+        <item quantity="other">Sletter %d elementer</item>
+    </plurals>
+
+    <!-- Storages -->
+    <string name="select_storage">Vælg lager</string>
+    <string name="internal">Intern</string>
+    <string name="sd_card">SD-kort</string>
+    <string name="root">Rod</string>
+    <string name="wrong_root_selected">Forkert mappe valgt, vælg rodmappen på SD-kortet</string>
+    <string name="sd_card_otg_same">Stierne til SD-kortet og OTG-enheden kan ikke være ens</string>
+    <string name="app_on_sd_card">Det ser ud til at du har appen installeret på et SD-kort. Det gør at appens widget ikke er tilgængelig og ikke kan ses på listen med widgets.
+        Dette skyldes en begrænsning i systemet, så hvis du vil bruge appens widgets må du flytte appen tilbage til det interne lager.</string>
+
+    <!-- File properties -->
+    <string name="properties">Egenskaber</string>
+    <string name="path">Sti</string>
+    <string name="items_selected">Elementer valgt</string>
+    <string name="direct_children_count">Antal direkte underliggende</string>
+    <string name="files_count">Antal filer i alt</string>
+    <string name="resolution">Opløsning</string>
+    <string name="duration">Varighed</string>
+    <string name="artist">Forfatter</string>
+    <string name="album">Album</string>
+    <string name="focal_length">Brændvidde</string>
+    <string name="exposure_time">Eksponeringstid</string>
+    <string name="iso_speed">ISO</string>
+    <string name="f_number">F-nummer</string>
+    <string name="camera">Kamera</string>
+    <string name="exif">EXIF</string>
+    <string name="song_title">Sangtitel</string>
+
+    <!-- Color customization -->
+    <string name="background_color">Baggrundsfarve</string>
+    <string name="text_color">Tekstfarve</string>
+    <string name="primary_color">Primær farve</string>
+    <string name="foreground_color">Forgrundsfarve</string>
+    <string name="app_icon_color">Farve til appens ikon</string>
+    <string name="restore_defaults">Gendan standarder</string>
+    <string name="change_color">Skift farve</string>
+    <string name="theme">Udseende</string>
+    <string name="changing_color_description">Ændring af farve vil også medføre skift til tilpasset udseende</string>
+    <string name="save">Gem</string>
+    <string name="discard">Kassér</string>
+    <string name="undo_changes">Fortryd ændringer</string>
+    <string name="undo_changes_confirmation">Er du sikker på at du vil fortryde ændringerne?</string>
+    <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
+    <string name="apply_to_all_apps">Anvend farverne på alle Simple Apps</string>
+    <string name="share_colors_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Køb <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
+        ]]>
+    </string>
+
+    <!-- Themes -->
+    <string name="light_theme">Lys</string>
+    <string name="dark_theme">Mørk</string>
+    <string name="solarized">Solarized</string>
+    <string name="dark_red">Mørkerød</string>
+    <string name="black_white">Sort &amp; hvid</string>
+    <string name="custom">Tilpasset</string>
+    <string name="shared">Gemt</string>
+
+    <!-- What's new -->
+    <string name="whats_new">Hvad er nyt</string>
+    <string name="whats_new_disclaimer">* Kun større opdateringer er nævnt her, der er altid flere mindre forbedringer også</string>
+
+    <!-- Actionbar items -->
+    <string name="delete">Slet</string>
+    <string name="remove">Fjern</string>
+    <string name="rename">Omdøb</string>
+    <string name="share">Del</string>
+    <string name="share_via">Del via</string>
+    <string name="select_all">Vælg alle</string>
+    <string name="hide">Skjul</string>
+    <string name="unhide">Vis</string>
+    <string name="hide_folder">Skjul mappe</string>
+    <string name="unhide_folder">Vis mappe</string>
+    <string name="temporarily_show_hidden">Vis midlertidigt skjulte</string>
+    <string name="stop_showing_hidden">Stop visning af skjulte medier</string>
+    <string name="maximum_share_reached">Du kan ikke dele så meget indhold ad gangen</string>
+    <string name="empty_and_disable_recycle_bin">Tøm og deaktiver papirkurven</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+
+    <!-- Sorting -->
+    <string name="sort_by">Sorter efter</string>
+    <string name="name">Navn</string>
+    <string name="size">Størrelse</string>
+    <string name="last_modified">Senest ændret</string>
+    <string name="date_taken">Eksponeringsdato</string>
+    <string name="title">Titel</string>
+    <string name="filename">Filnavn</string>
+    <string name="extension">Filtype</string>
+    <string name="ascending">Stigende</string>
+    <string name="descending">Faldende</string>
+    <string name="use_for_this_folder">Anvend kun på denne mappe</string>
+
+    <!-- Confirmation dialog -->
+    <string name="proceed_with_deletion">Er du sikker på at du vil fortsætte med at slette?</string>
+    <string name="deletion_confirmation">Er du sikker på at du vil slette %s?</string>    <!-- Are you sure you want to delete 5 items? -->
+    <string name="move_to_recycle_bin_confirmation">Er du sikker på at du vil flytte %s til papirkurven?</string>    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="are_you_sure_delete">Er du sikker på at du vil slette dette?</string>
+    <string name="are_you_sure_recycle_bin">Er du sikker på at du vil flytte dette til papirkurven?</string>
+    <string name="do_not_ask_again">Spørg ikke igen i denne session</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+
+    <plurals name="delete_warning">
+        <item quantity="one">ADVARSEL: Du sletter en mappe</item>
+        <item quantity="other">ADVARSEL: Du sletter %d mapper</item>
+    </plurals>
+
+    <!-- Password protection -->
+    <string name="pin">PIN</string>
+    <string name="enter_pin">Indtast PIN</string>
+    <string name="please_enter_pin">Indtast en PIN</string>
+    <string name="wrong_pin">Forkert PIN</string>
+    <string name="repeat_pin">Gentag PIN</string>
+    <string name="pattern">Mønster</string>
+    <string name="insert_pattern">Indsæt mønster</string>
+    <string name="wrong_pattern">Forkert mønster</string>
+    <string name="repeat_pattern">Gentag mønster</string>
+    <string name="fingerprint">Fingeraftryk</string>
+    <string name="add_fingerprint">Tilføj fingeraftryk</string>
+    <string name="place_finger">Sæt din finger på sensoren</string>
+    <string name="authentication_failed">Godkendelsen fejlede</string>
+    <string name="authentication_blocked">Godkendelse blokeret, prøv igen om lidt</string>
+    <string name="no_fingerprints_registered">Du har ingen registrerede fingeraftryk, tilføj nogle i indstillingerne på din enhed</string>
+    <string name="go_to_settings">Gå til indstillingerne</string>
+    <string name="protection_setup_successfully">Adgangskoden er oprettet. Geninstaller appen hvis du glemmer den.</string>
+    <string name="fingerprint_setup_successfully">Beskyttelsen er oprettet. Geninstaller appen hvis du har problemer med at gendanne den.</string>
+
+    <!-- Times -->
+    <string name="yesterday">I går</string>
+    <string name="today">I dag</string>
+    <string name="tomorrow">I morgen</string>
+    <string name="seconds_raw">sekunder</string>
+    <string name="minutes_raw">minutter</string>
+    <string name="hours_raw">timer</string>
+    <string name="days_raw">dage</string>
+
+    <plurals name="seconds">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minutter</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d time</item>
+        <item quantity="other">%d timer</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dage</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d uge</item>
+        <item quantity="other">%d uger</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d måned</item>
+        <item quantity="other">%d måneder</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d år</item>
+        <item quantity="other">%d år</item>
+    </plurals>
+
+    <!-- For example: I will be there in 5 minutes -->
+    <plurals name="in_seconds">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minutter</item>
+    </plurals>
+    <plurals name="in_hours">
+        <item quantity="one">%d time</item>
+        <item quantity="other">%d timer</item>
+    </plurals>
+
+    <!-- For example: Event reminder: 3 minutes before -->
+    <plurals name="seconds_before">
+        <item quantity="one">%d second before</item>
+        <item quantity="other">%d seconds before</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="one">%d minut før start</item>
+        <item quantity="other">%d minutter før start</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="one">%d time før start</item>
+        <item quantity="other">%d timer før start</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="one">%d dag før start</item>
+        <item quantity="other">%d dage før start</item>
+    </plurals>
+
+    <!-- For example: Postpone reminder by 3 minutes -->
+    <plurals name="by_seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minutter</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d time</item>
+        <item quantity="other">%d timer</item>
+    </plurals>
+
+    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+    <string name="alarm_goes_off_in">Resterende tid før alarmen lyder:\n%s</string>
+    <string name="reminder_triggers_in">Tid tilbage inden alarmen lyder:\n%s</string>
+    <string name="alarm_warning">Du anbefales sikre dig at alarmen virker som den skal inden du stoler på den. Den kan drille som følge af strømbesparende begrænsninger på systemet.</string>
+    <string name="reminder_warning">Du anbefales sikre dig at påmindelser virker som de skal inden du stoler på dem. De kan drille som følge af strømbesparende begrænsninger på systemet.</string>
+
+    <!-- Alarms -->
+    <string name="alarm">Alarm</string>
+    <string name="snooze">Udsæt</string>
+    <string name="dismiss">Slå fra</string>
+    <string name="no_reminder">Ingen påmindelse</string>
+    <string name="at_start">Ved start</string>
+    <string name="system_sounds">Systemlyde</string>
+    <string name="your_sounds">Dine lyde</string>
+    <string name="add_new_sound">Tilføj en ny lyd</string>
+    <string name="no_sound">Ingen lyd</string>
+
+    <!-- Settings -->
+    <string name="settings">Indstillinger</string>
+    <string name="purchase_simple_thank_you">Køb Simple Thank You</string>
+    <string name="customize_colors">Rediger farver</string>
+    <string name="customize_widget_colors">Rediger widget-farver</string>
+    <string name="use_english_language">Use English language</string>
+    <string name="avoid_whats_new">Vis ikke seneste ændringer ved opstart</string>
+    <string name="show_hidden_items">Vis skjulte elementer</string>
+    <string name="font_size">Skriftstørrelse</string>
+    <string name="small">Lille</string>
+    <string name="medium">Medium</string>
+    <string name="large">Stor</string>
+    <string name="extra_large">Ekstra stor</string>
+    <string name="password_protect_hidden_items">Beskyt visning af skjulte elementer med en kode</string>
+    <string name="password_protect_whole_app">Beskyt hele appen med en adgangskode</string>
+    <string name="keep_last_modified">Kopi/flyt/omdøb skal ikke påvirke ændringstidspunktet</string>
+    <string name="show_info_bubble">Vis en info-boble når jeg scroller med rullepanelet</string>
+    <string name="prevent_phone_from_sleeping">Forhindr telefonen i at falde i søvn når appen er i forgrunden</string>
+    <string name="skip_delete_confirmation">Spørg ikke om bekræftelse før sletning</string>
+    <string name="enable_pull_to_refresh">Aktiver træk nedad for at genindlæse</string>
+    <string name="use_24_hour_time_format">Brug 24-timersformat</string>
+    <string name="sunday_first">Søndag første ugedag</string>
+    <string name="widgets">Widgets</string>
+    <string name="use_same_snooze">Brug altid samme udsættelsestid</string>
+    <string name="snooze_time">Udsættelsestid</string>
+    <string name="vibrate_on_button_press">Vibrer ved tryk på knapper</string>
+    <string name="move_items_into_recycle_bin">Flyt elementer til papirkurven i stedet for at slette dem</string>
+    <string name="recycle_bin_cleaning_interval">Interval for tømning af papirkurven</string>
+    <string name="empty_recycle_bin">Tøm papirkurven</string>
+    <string name="force_portrait_mode">Brug stående visning</string>
+
+    <!-- Setting sections -->
+    <string name="visibility">Synlighed</string>
+    <string name="security">Sikkerhed</string>
+    <string name="scrolling">Scrolling</string>
+    <string name="file_operations">Filoperationer</string>
+    <string name="recycle_bin">Papirkurv</string>
+    <string name="saving_label">Saving</string>
+    <string name="startup">Startup</string>
+    <string name="text">Text</string>
+
+    <!-- Recycle Bin -->
+    <string name="restore_this_file">Restore this file</string>
+    <string name="restore_selected_files">Restore selected files</string>
+    <string name="restore_all_files">Restore all files</string>
+    <string name="recycle_bin_emptied">The Recycle Bin has been emptied successfully</string>
+    <string name="files_restored_successfully">Files have been restored successfully</string>
+    <string name="empty_recycle_bin_confirmation">Er du sikker på at du vil tømme papirkurven? Filerne vil ikke kunne genskabes.</string>
+    <string name="recycle_bin_empty">Papirkurven er tom</string>
+
+    <!-- Import / Export -->
+    <string name="importing">Importerer…</string>
+    <string name="exporting">Eksporterer…</string>
+    <string name="importing_successful">Import gennemført</string>
+    <string name="exporting_successful">Eksport gennemført</string>
+    <string name="importing_failed">Import mislykkedes</string>
+    <string name="exporting_failed">Eksport mislykkedes</string>
+    <string name="importing_some_entries_failed">Import mislykkedes delvist</string>
+    <string name="exporting_some_entries_failed">Eksport mislykkedes delvist</string>
+    <string name="no_entries_for_exporting">Der er ikke fundet indhold til eksport</string>
+
+    <!-- OTG devices -->
+    <string name="otg">OTG</string>
+    <string name="confirm_otg_storage_access_text">Vælg rodmappen på OTG-enheden på den næste skærm for at give adgang.</string>
+    <string name="wrong_root_selected_otg">Den forkerte mappe er valgt, vælg rodmappen på din OTG-enhed</string>
+
+    <!-- Dates -->
+    <string name="january">Januar</string>
+    <string name="february">Februar</string>
+    <string name="march">Marts</string>
+    <string name="april">April</string>
+    <string name="may">Maj</string>
+    <string name="june">Juni</string>
+    <string name="july">Juli</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">Oktober</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <!-- in January -->
+    <string name="in_january">i januar</string>
+    <string name="in_february">i februar</string>
+    <string name="in_march">i marts</string>
+    <string name="in_april">i april</string>
+    <string name="in_may">i maj</string>
+    <string name="in_june">i juni</string>
+    <string name="in_july">i juli</string>
+    <string name="in_august">i august</string>
+    <string name="in_september">i september</string>
+    <string name="in_october">i oktober</string>
+    <string name="in_november">i november</string>
+    <string name="in_december">i december</string>
+
+    <string name="monday">Mandag</string>
+    <string name="tuesday">Tirsdag</string>
+    <string name="wednesday">Onsdag</string>
+    <string name="thursday">Torsdag</string>
+    <string name="friday">Fredag</string>
+    <string name="saturday">Lørdag</string>
+    <string name="sunday">Søndag</string>
+
+    <string name="monday_letter">M</string>
+    <string name="tuesday_letter">T</string>
+    <string name="wednesday_letter">O</string>
+    <string name="thursday_letter">T</string>
+    <string name="friday_letter">F</string>
+    <string name="saturday_letter">L</string>
+    <string name="sunday_letter">S</string>
+
+    <string name="monday_short">Man</string>
+    <string name="tuesday_short">Tir</string>
+    <string name="wednesday_short">Ons</string>
+    <string name="thursday_short">Tor</string>
+    <string name="friday_short">Fre</string>
+    <string name="saturday_short">Lør</string>
+    <string name="sunday_short">Søn</string>
+
+    <!-- About -->
+    <string name="about">Om</string>
+    <string name="website_label">For at se kildekoden besøg</string>
+    <string name="email_label">Send feedback og forslag til</string>
+    <string name="more_apps_underlined"><u>Flere apps</u></string>
+    <string name="third_party_licences_underlined"><u>3.-parts licencer</u></string>
+    <string name="invite_friends_underlined"><u>Inviter venner</u></string>
+    <string name="share_text">Hej, se %1$s på %2$s</string>
+    <string name="invite_via">Inviter via</string>
+    <string name="rate_us_underlined"><u>Vurder os</u></string>
+    <string name="donate">Donér</string>
+    <string name="donate_underlined"><u>Donér</u></string>
+    <string name="follow_us">Følg os</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="additional_info">Yderligere info</string>
+    <string name="app_version">App version: %s</string>
+    <string name="device_os">Device OS: %s</string>
+    <string name="donate_please">
+        <![CDATA[
+            Hej<br><br>
+            Håber du kan lide denne app. Den indeholder ingen reklamer, så vær sød at købe appen <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, som også vil forhindre at denne besked vises igen.<br><br>
+            På forhånd tak!
+        ]]>
+    </string>
+    <string name="purchase">Køb</string>
+    <string name="update_thank_you">Opdater venligst Simple Thank You til den seneste version</string>
+    <string name="before_asking_question_read_faq">Inden du stiller et spørgsmål, bør du lige tjekke Ofte stillede spørgsmål, som måske allerede indeholder svaret.</string>
+    <string name="read_it">Læs det</string>
+
+    <!-- New app (do not translate anything on the 4th line) -->
+    <string name="new_app">
+        <![CDATA[
+            Hej<br><br>
+            - synes lige du skulle vide at der er kommet en ny app:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            Du kan downloade den med et klik på titlen.<br><br>
+            Tak
+        ]]>
+    </string>
+
+    <!-- FAQ -->
+    <string name="frequently_asked_questions">Ofte stillede spørgsmål</string>
+    <string name="before_asking_question">Inden du stiller et spørgsmål bedes du først læse</string>
+    <string name="faq_1_title_commons">Hvorfor kan jeg ikke se denne app\'s widget på listen med widgets?</string>
+    <string name="faq_1_text_commons">Det er sikkert fordi du har flyttet appen til et SD-kort. Der er en begrænsning i Androidsystemet der i så fald skjuler appens widget. Eneste løsning er at flytte appen tilbage til det interne lager via indstillingerne på din enhed.</string>
+    <string name="faq_2_title_commons">Jeg vil gerne støtte dig, men jeg kan ikke donere penge. Er der andet jeg kan gøre?</string>
+    <string name="faq_2_text_commons">Ja, selvfølgelig. Du kan fortælle andre om appsene eller give god feedback og gode vurderinger. Du kan også hjælpe med at oversætte til et nyt sprog, eller med at opdatere en eksisterende oversættelse.
+        Du kan finde en guide på siden https://github.com/SimpleMobileTools/General-Discussion, eller send mig en besked på hello@simplemobiletools.com hvis du har brug for hjælp.</string>
+    <string name="faq_3_title_commons">Jeg fik slettet nogle filer ved en fejl, hvordan kan jeg gendanne dem?</string>
+    <string name="faq_3_text_commons">Det kan du desværre ikke. Filer er væk så snart sletningen er bekræftet, og der er ingen papirkurv.</string>
+    <string name="faq_4_title_commons">Jeg bryder mig ikke om farverne på widget\'en, kan jeg ændre dem?</string>
+    <string name="faq_4_text_commons">Jep. Når du føjer en widget til din skærm kommer muligheden for at konfigurere den frem. I nederste venstre hjørne finder du farvede kvadrater, klik på dem og vælg en ny farve. Du kan justere alfa med skyderen.</string>
+    <string name="faq_5_title_commons">Kan jeg gendanne slettede filer?</string>
+    <string name="faq_5_text_commons">Nej, ikke hvis de virkelig er slettet. Men du kan vælge at bruge en papirkurv i stedet for at slette noget direkte. Papirkurven aktiveres i indstillingerne.</string>
+
+    <!-- License -->
+    <string name="notice">Denne app bruger følgende 3.-parts biblioteker der gør at mit liv bliver lidt enklere. Tak.</string>
+    <string name="third_party_licences">3.-parts licencer</string>
+    <string name="kotlin_title">Kotlin (programmeringssprog)</string>
+    <string name="subsampling_title">Subsampling Scale Image View (zoombar billedvisning)</string>
+    <string name="glide_title">Glide (billedindlæsning og -caching)</string>
+    <string name="picasso_title">Picasso (billedindlæsning og -caching)</string>
+    <string name="cropper_title">Android Image Cropper (beskær og roter billede)</string>
+    <string name="multiselect_title">RecyclerView MultiSelect (vælger flere elementer)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (højre til venstre-swiping)</string>
+    <string name="joda_title">Joda-Time (Java-dato-erstatning)</string>
+    <string name="stetho_title">Stetho (debugger databaser)</string>
+    <string name="otto_title">Otto (event bus)</string>
+    <string name="photoview_title">PhotoView (zoombare GIF\'er)</string>
+    <string name="pattern_title">PatternLockView (mønsterbeskyttelse)</string>
+    <string name="reprint_title">Reprint (beskyttelse af fingeraftryk)</string>
+    <string name="gif_drawable_title">Gif Drawable (indlæser GIF\'er)</string>
+    <string name="autofittextview_title">AutoFitTextView (skalering af tekst)</string>
+    <string name="robolectric_title">Robolectric (tester framework)</string>
+    <string name="espresso_title">Espresso (tester helper)</string>
+    <string name="gson_title">Gson (JSON parser)</string>
+    <string name="leak_canary_title">Leak Canary (detektering af pladsmangel)</string>
+    <string name="number_picker_title">Number Picker (customizable number picker)</string>
+    <string name="exoplayer_title">ExoPlayer (video player)</string>
+    <string name="panorama_view_title">VR Panorama View (displaying panoramas)</string>
+    <string name="sanselan_title">Apache Sanselan (reading image metadata)</string>
+    <string name="filters_title">Android Photo Filters (image filters)</string>
+</resources>

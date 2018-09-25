@@ -6,6 +6,12 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.Toast
 import com.mindorks.waprofileimage.waprofileImage.WAProfileImage
+import com.mindorks.waprofileimage.waprofileImage.WAProfileImage.IMAGE_PICKED_KEY
+import com.mindorks.waprofileimage.waprofileImage.wapprofileimageactivity.WAProfileImageActivity
+import android.graphics.BitmapFactory
+import android.graphics.Bitmap
+
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,9 +28,15 @@ class MainActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        Toast.makeText(this,
-                resultCode.toString(),
-                Toast.LENGTH_SHORT).show()
+    if(resultCode==WAProfileImage.RESPONSE_CODE_OPEN_CAMERA)
+    {
+        if (data != null) {
+            // get image Path
+           val imagePath=data.getStringExtra(IMAGE_PICKED_KEY)
+
+        }
+    }
+
 
     }
 }

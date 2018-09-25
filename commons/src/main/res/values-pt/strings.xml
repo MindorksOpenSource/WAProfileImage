@@ -1,0 +1,561 @@
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save_as">Guardar como</string>
+    <string name="file_saved">Ficheiro guardado com sucesso</string>
+    <string name="invalid_file_format">Formato de ficheiro inválido</string>
+    <string name="out_of_memory_error">Memória insuficiente</string>
+    <string name="an_error_occurred">Ocorreu um erro: %s</string>
+    <string name="open_with">Abrir com</string>
+    <string name="no_app_found">Nenhuma aplicação encontrada</string>
+    <string name="set_as">Definir como</string>
+    <string name="value_copied_to_clipboard">Valor copiado para a área de transferência</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="always">Sempre</string>
+    <string name="never">Nunca</string>
+    <string name="details">Detalhes</string>
+    <string name="notes">Notas</string>
+    <string name="deleting_folder">A apagar a pasta \'%s\'</string>
+    <string name="none">None</string>
+    <string name="label">Label</string>
+
+    <!-- Favorites -->
+    <string name="favorites">Favoritos</string>
+    <string name="add_favorites">Add favorites</string>
+    <string name="add_to_favorites">Adicionar aos favoritos</string>
+    <string name="remove_from_favorites">Remover dos favoritos</string>
+
+    <!-- Search -->
+    <string name="search">Pesquisar</string>
+    <string name="type_2_characters">Digite, pelo menos, 2 caracteres para iniciar a pesquisa.</string>
+
+    <!-- Filters -->
+    <string name="filter">Filtrar</string>
+    <string name="no_items_found">Sem itens</string>
+    <string name="change_filter">Alterar filtro</string>
+
+    <!-- Permissions -->
+    <string name="no_storage_permissions">Requer acesso ao armazenamento</string>
+    <string name="no_contacts_permission">Requer acesso aos contactos</string>
+    <string name="no_camera_permissions">Requer acesso à câmara</string>
+    <string name="no_audio_permissions">Requer acesso ao áudio</string>
+
+    <!-- Renaming -->
+    <string name="rename_file">Renomear ficheiro</string>
+    <string name="rename_folder">Renomear pasta</string>
+    <string name="rename_file_error">Não foi possível renomear o ficheiro</string>
+    <string name="rename_folder_error">Não foi possível renomear a pasta</string>
+    <string name="rename_folder_empty">O nome da pasta não pode estar vazio</string>
+    <string name="rename_folder_exists">Já existe uma pasta com este nome</string>
+    <string name="rename_folder_root">Não pode renomear a pasta raiz de um armazenamento</string>
+    <string name="rename_folder_ok">A pasta foi renomeada com sucesso</string>
+    <string name="renaming_folder">A renomear pasta</string>
+    <string name="filename_cannot_be_empty">O nome do ficheiro não pode estar vazio</string>
+    <string name="filename_invalid_characters">O nome do ficheiro contém caracteres inválidos</string>
+    <string name="filename_invalid_characters_placeholder">O nome \'%s\' contém caracteres inválidos</string>
+    <string name="extension_cannot_be_empty">A extensão não pode estar vazia</string>
+    <string name="source_file_doesnt_exist">O ficheiro de origem %s não existe</string>
+
+    <!-- Copy / Move -->
+    <string name="copy">Copiar</string>
+    <string name="move">Mover</string>
+    <string name="copy_move">Copiar/mover para</string>
+    <string name="copy_to">Copiar para</string>
+    <string name="move_to">Mover para</string>
+    <string name="source">Origem</string>
+    <string name="destination">Destino</string>
+    <string name="select_destination">Selecione o destino</string>
+    <string name="click_select_destination">Toque aqui para escolher o destino</string>
+    <string name="invalid_destination">Não foi possível escrever no destino selecionado</string>
+    <string name="please_select_destination">Por favor selecione um destino</string>
+    <string name="source_and_destination_same">A origem e o destino não podem ser iguais</string>
+    <string name="copy_failed">Não foi possível copiar os ficheiros</string>
+    <string name="copying">A copiar…</string>
+    <string name="copying_success">Ficheiros copiados com sucesso</string>
+    <string name="copy_move_failed">Ocorreu um erro ao copiar</string>
+    <string name="moving">A mover…</string>
+    <string name="moving_success">Ficheiros movidos com sucesso</string>
+    <string name="moving_success_partial">Alguns ficheiros não foram movidos</string>
+    <string name="copying_success_partial">Alguns ficheiros não foram copiados</string>
+    <string name="no_files_selected">Nenhum ficheiro selecionado</string>
+    <string name="saving">A guardar…</string>
+    <string name="could_not_create_folder">Não foi possível criar a pasta %s</string>
+    <string name="could_not_create_file">Não foi possível criar o ficheiro %s</string>
+
+    <!-- Create new -->
+    <string name="create_new">Criar</string>
+    <string name="folder">Pasta</string>
+    <string name="file">Ficheiro</string>
+    <string name="create_new_folder">Criar nova pasta</string>
+    <string name="name_taken">Já existe um ficheiro ou pasta com este nome</string>
+    <string name="invalid_name">O nome contém caracteres inválidos</string>
+    <string name="empty_name">Digite um nome</string>
+    <string name="unknown_error_occurred">Ocorreu um erro desconhecido</string>
+
+    <!-- File operation conflicts -->
+    <string name="file_already_exists">Já existe um ficheiro com o nome \"%s\"</string>
+    <string name="file_already_exists_overwrite">Já existe um ficheiro com o nome \"%s\". Substituir?</string>
+    <string name="folder_already_exists">Já existe uma pasta com o nome \"%s\"</string>
+    <string name="merge">Unir</string>
+    <string name="overwrite">Substituir</string>
+    <string name="skip">Ignorar</string>
+    <string name="append">Anexar \'_1\'</string>
+    <string name="apply_to_all">Aplicar a todos os conflitos</string>
+
+    <!-- File picker -->
+    <string name="select_folder">Selecionar pasta</string>
+    <string name="select_file">Selecionar ficheiro</string>
+    <string name="confirm_storage_access_title">Confirmação de acesso ao armazenamento externo</string>
+    <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo ecrã para conceder acesso de escrita</string>
+    <string name="confirm_storage_access_text_sd">Se não conseguir ver o cartão SD, tente isto</string>
+    <string name="confirm_selection">Confirmar seleção</string>
+
+    <plurals name="items">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d itens</item>
+    </plurals>
+
+    <!-- Are you sure you want to delete 5 items? -->
+    <plurals name="delete_items">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+
+    <plurals name="deleting_items">
+        <item quantity="one">A apagar %d item</item>
+        <item quantity="other">A apagar %d itens</item>
+    </plurals>
+
+    <!-- Storages -->
+    <string name="select_storage">Selecionar armazenamento</string>
+    <string name="internal">Interno</string>
+    <string name="sd_card">Cartão SD</string>
+    <string name="root">Raiz</string>
+    <string name="wrong_root_selected">Pasta inválida, por favor selecione o cartão SD</string>
+    <string name="sd_card_otg_same">Não pode utilizar o mesmo caminho para o cartão SD e para o dispositivo OTG</string>
+    <string name="app_on_sd_card">Parece que a aplicação está instalada no cartão SD, o que torna o widget indisponível. Nem sequer aparecerá na lista de widgets disponíveis.
+        Esta é uma limitação do sistema e, se quiser usar widgets, tem que mover a aplicação para o armazenamento interno.</string>
+
+    <!-- File properties -->
+    <string name="properties">Propriedades</string>
+    <string name="path">Caminho</string>
+    <string name="items_selected">Itens selecionados</string>
+    <string name="direct_children_count">Itens nesta pasta</string>
+    <string name="files_count">Total de ficheiros</string>
+    <string name="resolution">Resolução</string>
+    <string name="duration">Duração</string>
+    <string name="artist">Artista</string>
+    <string name="album">Álbum</string>
+    <string name="focal_length">Distância focal</string>
+    <string name="exposure_time">Tempo de exposição</string>
+    <string name="iso_speed">Velocidade ISO</string>
+    <string name="f_number">Número F</string>
+    <string name="camera">Câmara</string>
+    <string name="exif">EXIF</string>
+    <string name="song_title">Título da faixa</string>
+
+    <!-- Color customization -->
+    <string name="background_color">Cor de fundo</string>
+    <string name="text_color">Cor do tipo de letra</string>
+    <string name="primary_color">Cor primária</string>
+    <string name="foreground_color">Cor secundária</string>
+    <string name="app_icon_color">Cor do ícone da aplicação</string>
+    <string name="restore_defaults">Restaurar predefinições</string>
+    <string name="change_color">Alterar cor</string>
+    <string name="theme">Tema</string>
+    <string name="changing_color_description">Se alterar uma cor, ativa o modo de tema personalizado</string>
+    <string name="save">Guardar</string>
+    <string name="discard">Descartar</string>
+    <string name="undo_changes">Desfazer alterações</string>
+    <string name="undo_changes_confirmation">Tem a certeza de que deseja desfazer as alterações?</string>
+    <string name="save_before_closing">Existem alterações não guardadas. Deseja guardar antes de sair?</string>
+    <string name="apply_to_all_apps">Aplicar cores a todas as aplicações Simple</string>
+    <string name="share_colors_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Por favor compre a aplicação <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> para desbloquear esta funcionalidade e ajudar no desenvolvimento. Obrigado!
+        ]]>
+    </string>
+
+    <!-- Themes -->
+    <string name="light_theme">Claro</string>
+    <string name="dark_theme">Escuro</string>
+    <string name="solarized">Solar</string>
+    <string name="dark_red">Vermelho escuro</string>
+    <string name="black_white">Preto e branco</string>
+    <string name="custom">Personalizado</string>
+    <string name="shared">Partilhado</string>
+
+    <!-- What's new -->
+    <string name="whats_new">Novidades</string>
+    <string name="whats_new_disclaimer">* apenas são listadas as alterações mais significativas. Contudo, existem sempre mais alterações do que as aqui referidas.</string>
+
+    <!-- Actionbar items -->
+    <string name="delete">Apagar</string>
+    <string name="remove">Remover</string>
+    <string name="rename">Renomear</string>
+    <string name="share">Partilhar</string>
+    <string name="share_via">Partilhar por</string>
+    <string name="select_all">Selecionar tudo</string>
+    <string name="hide">Ocultar</string>
+    <string name="unhide">Mostrar</string>
+    <string name="hide_folder">Ocultar pasta</string>
+    <string name="unhide_folder">Mostrar pasta</string>
+    <string name="temporarily_show_hidden">Mostrar ocultas temporariamente</string>
+    <string name="stop_showing_hidden">Não mostrar multimédia oculta</string>
+    <string name="maximum_share_reached">Não pode partilhar tantos itens em simultâneoo</string>
+    <string name="empty_and_disable_recycle_bin">Esvaziar e desativar a reciclagem</string>
+    <string name="undo">Desfazer</string>
+    <string name="redo">Refazer</string>
+
+    <!-- Sorting -->
+    <string name="sort_by">Ordenar por</string>
+    <string name="name">Nome</string>
+    <string name="size">Tamanho</string>
+    <string name="last_modified">Data de modificação</string>
+    <string name="date_taken">Data de obtenção</string>
+    <string name="title">Título</string>
+    <string name="filename">Nome do ficheiro</string>
+    <string name="extension">Extensão</string>
+    <string name="ascending">Ascendente</string>
+    <string name="descending">Descendente</string>
+    <string name="use_for_this_folder">Apenas para esta pasta</string>
+
+    <!-- Confirmation dialog -->
+    <string name="proceed_with_deletion">Tem a certeza de que deseja continuar com a eliminação?</string>
+    <string name="deletion_confirmation">Tem a certeza de que deseja apagar %s?</string>    <!-- Are you sure you want to delete 5 items? -->
+    <string name="move_to_recycle_bin_confirmation">Tem a certeza de que deseja mover %s para a reciclagem?</string>    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="are_you_sure_delete">Tem a certeza de que deseja apagar este item?</string>
+    <string name="are_you_sure_recycle_bin">Tem a certeza de que deseja mover este item para a reciclagem?</string>
+    <string name="do_not_ask_again">Não perguntar mais para esta sessão</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <plurals name="delete_warning">
+        <item quantity="one">AVISO: está prestes a apagar uma pasta</item>
+        <item quantity="other">AVISO: está prestes a apagar %d pastas</item>
+    </plurals>
+
+    <!-- Password protection -->
+    <string name="pin">PIN</string>
+    <string name="enter_pin">Digite o PIN</string>
+    <string name="please_enter_pin">Por favor digite o PIN</string>
+    <string name="wrong_pin">PIN inválido</string>
+    <string name="repeat_pin">Repita o PIN</string>
+    <string name="pattern">Padrão</string>
+    <string name="insert_pattern">Introduza o padrão</string>
+    <string name="wrong_pattern">Padrão inválido</string>
+    <string name="repeat_pattern">Repita o padrão</string>
+    <string name="fingerprint">Impressão digital</string>
+    <string name="add_fingerprint">Adicionar impressão digital</string>
+    <string name="place_finger">Coloque o seu dedo no sensor de impressões digitais</string>
+    <string name="authentication_failed">Falha de autenticação</string>
+    <string name="authentication_blocked">Autenticação bloqueada. Por favor tente mais tarde.</string>
+    <string name="no_fingerprints_registered">Não tem impressões digitais registadas. Adicione a sua impressão digital nas definições do dispositivo.</string>
+    <string name="go_to_settings">Ir para Definições</string>
+    <string name="protection_setup_successfully">Palavra-passe definida com sucesso. Deve reinstalar esta aplicação se não se lembrar da palavra-passe.</string>
+    <string name="fingerprint_setup_successfully">Proteção definida com sucesso. Deve reinstalar a aplicação se ocorrerem problemas.</string>
+
+    <!-- Times -->
+    <string name="yesterday">Ontem</string>
+    <string name="today">Hoje</string>
+    <string name="tomorrow">Amanhã</string>
+    <string name="seconds_raw">segundos</string>
+    <string name="minutes_raw">minutos</string>
+    <string name="hours_raw">horas</string>
+    <string name="days_raw">dias</string>
+
+    <plurals name="seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dias</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d semana</item>
+        <item quantity="other">%d semanas</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d mês</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d ano</item>
+        <item quantity="other">%d anos</item>
+    </plurals>
+
+    <!-- For example: I will be there in 5 minutes -->
+    <plurals name="in_seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="in_hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+
+    <!-- For example: Event reminder: 3 minutes before -->
+    <plurals name="seconds_before">
+        <item quantity="one">%d segundo antes</item>
+        <item quantity="other">%d segundos antes</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="one">%d minuto antes</item>
+        <item quantity="other">%d minutos antes</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="one">%d hora antes</item>
+        <item quantity="other">%d horas antes</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="one">%d dia antes</item>
+        <item quantity="other">%d dias antes</item>
+    </plurals>
+
+    <!-- For example: Postpone reminder by 3 minutes -->
+    <plurals name="by_seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+
+    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+    <string name="alarm_goes_off_in">O alarme está definido para daqui a:\n%s</string>
+    <string name="reminder_triggers_in">Time remaining till the reminder triggers:\n%s</string>
+    <string name="alarm_warning">Certifique-se de que o alarme está a funcionar corretamente antes de o utilizar na plenitude. Pode ter um comportamento errático devido a restrições do sistema.</string>
+    <string name="reminder_warning">Certifique-se de que o lembrete está a funcionar corretamente antes de o utilizar na plenitude. Pode ter um comportamento errático devido a restrições do sistema.</string>
+
+    <!-- Alarms -->
+    <string name="alarm">Alarme</string>
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Descartar</string>
+    <string name="no_reminder">Sem lembrete</string>
+    <string name="at_start">No início</string>
+    <string name="system_sounds">Sons do sistema</string>
+    <string name="your_sounds">Meus sons</string>
+    <string name="add_new_sound">Adicionar um novo som</string>
+    <string name="no_sound">Sem som</string>
+
+    <!-- Settings -->
+    <string name="settings">Definições</string>
+    <string name="purchase_simple_thank_you">Purchase Simple Thank You</string>
+    <string name="customize_colors">Personalizar cores</string>
+    <string name="customize_widget_colors">Personalizar cores do widget</string>
+    <string name="use_english_language">Utilizar aplicação em inglês</string>
+    <string name="avoid_whats_new">Não mostrar novidades ao iniciar</string>
+    <string name="show_hidden_items">Mostrar itens ocultos</string>
+    <string name="font_size">Tamanho do texto</string>
+    <string name="small">Pequeno</string>
+    <string name="medium">Médio</string>
+    <string name="large">Grande</string>
+    <string name="extra_large">Muito grande</string>
+    <string name="password_protect_hidden_items">Proteger itens ocultos com palavra-passe</string>
+    <string name="password_protect_whole_app">Proteger aplicação com palavra-passe</string>
+    <string name="keep_last_modified">Manter dados da última modificação ao copiar/mover/renomear</string>
+    <string name="show_info_bubble">Mostrar informação ao arrastar a barra de deslocamento</string>
+    <string name="prevent_phone_from_sleeping">Impedir adormecimento do dispositivo se a aplicação estiver em segundo plano</string>
+    <string name="skip_delete_confirmation">Ignorar sempre a confirmação para eliminação de ficheiros</string>
+    <string name="enable_pull_to_refresh">Ativar pull-to-refresh</string>
+    <string name="use_24_hour_time_format">Utilizar formato 24 horas</string>
+    <string name="sunday_first">Iniciar semana ao domingo</string>
+    <string name="widgets">Widgets</string>
+    <string name="use_same_snooze">Usar sempre o mesmo intervalo para snooze</string>
+    <string name="snooze_time">Intervalo para snooze</string>
+    <string name="vibrate_on_button_press">Vibrar ao tocar nos botões</string>
+    <string name="move_items_into_recycle_bin">Mover itens para a reciclagem em vez de os apagar</string>
+    <string name="recycle_bin_cleaning_interval">Intervalo de tempo para limpar a reciclagem</string>
+    <string name="empty_recycle_bin">Limpar reciclagem</string>
+    <string name="force_portrait_mode">Impor modo vertical</string>
+
+    <!-- Setting sections -->
+    <string name="visibility">Visibilidade</string>
+    <string name="security">Segurança</string>
+    <string name="scrolling">Deslocação</string>
+    <string name="file_operations">Operações de ficheiros</string>
+    <string name="recycle_bin">Reciclagem</string>
+    <string name="saving_label">Guardar</string>
+    <string name="startup">Arranque</string>
+    <string name="text">Texto</string>
+
+    <!-- Recycle Bin -->
+    <string name="restore_this_file">Restaurar este ficheiro</string>
+    <string name="restore_selected_files">Restarurar os ficheiros selecionados</string>
+    <string name="restore_all_files">Restaurar todos os ficheiros</string>
+    <string name="recycle_bin_emptied">A reciclagem foi esvaziada</string>
+    <string name="files_restored_successfully">Os ficheiros foram restaurados</string>
+    <string name="empty_recycle_bin_confirmation">Tem a certeza de que deseja esvaziar a reciclagem? Todos os itens serão apagados permanentemente.</string>
+    <string name="recycle_bin_empty">A reciclagem está vazia</string>
+
+    <!-- Import / Export -->
+    <string name="importing">A importar…</string>
+    <string name="exporting">A exportar…</string>
+    <string name="importing_successful">Importação efetuada</string>
+    <string name="exporting_successful">Exportação efetuada</string>
+    <string name="importing_failed">Falha ao importar</string>
+    <string name="exporting_failed">Falha ao exportar</string>
+    <string name="importing_some_entries_failed">Falha ao importar alguns itens</string>
+    <string name="exporting_some_entries_failed">Falha ao exportar alguns itens</string>
+    <string name="no_entries_for_exporting">Não existem itens para exportação</string>
+
+    <!-- OTG devices -->
+    <string name="otg">OTG</string>
+    <string name="confirm_otg_storage_access_text">Escolha a pasta raiz do dispositivo OTG no ecrã seguinte para conceder o acesso</string>
+    <string name="wrong_root_selected_otg">Escolheu uma pasta inválida, deve selecionar a pasta raiz do dispositivo OTG</string>
+
+    <!-- Dates -->
+    <string name="january">janeiro</string>
+    <string name="february">fevereiro</string>
+    <string name="march">março</string>
+    <string name="april">abril</string>
+    <string name="may">maio</string>
+    <string name="june">junho</string>
+    <string name="july">julho</string>
+    <string name="august">agosto</string>
+    <string name="september">setembro</string>
+    <string name="october">outubro</string>
+    <string name="november">novembro</string>
+    <string name="december">dezembro</string>
+
+    <!-- in January -->
+    <string name="in_january">em janeiro</string>
+    <string name="in_february">em fevereiro</string>
+    <string name="in_march">em março</string>
+    <string name="in_april">em abril</string>
+    <string name="in_may">em maio</string>
+    <string name="in_june">em junho</string>
+    <string name="in_july">em julho</string>
+    <string name="in_august">em agosto</string>
+    <string name="in_september">em setembro</string>
+    <string name="in_october">em outubro</string>
+    <string name="in_november">em novembro</string>
+    <string name="in_december">em dezembro</string>
+
+    <string name="monday">segunda</string>
+    <string name="tuesday">terça</string>
+    <string name="wednesday">quarta</string>
+    <string name="thursday">quinta</string>
+    <string name="friday">sexta</string>
+    <string name="saturday">sábado</string>
+    <string name="sunday">domingo</string>
+
+    <string name="monday_letter">S</string>
+    <string name="tuesday_letter">T</string>
+    <string name="wednesday_letter">Q</string>
+    <string name="thursday_letter">Q</string>
+    <string name="friday_letter">S</string>
+    <string name="saturday_letter">S</string>
+    <string name="sunday_letter">D</string>
+
+    <string name="monday_short">seg</string>
+    <string name="tuesday_short">ter</string>
+    <string name="wednesday_short">qua</string>
+    <string name="thursday_short">qui</string>
+    <string name="friday_short">sex</string>
+    <string name="saturday_short">sáb</string>
+    <string name="sunday_short">dom</string>
+
+    <!-- About -->
+    <string name="about">Acerca</string>
+    <string name="website_label">Mais aplicações Simple e código fonte em</string>
+    <string name="email_label">Envie os seus comentários ou sugestões para</string>
+    <string name="more_apps_underlined"><u>Mais aplicações</u></string>
+    <string name="third_party_licences_underlined"><u>Licenças de terceiros</u></string>
+    <string name="invite_friends_underlined"><u>Convidar amigos</u></string>
+    <string name="share_text">Olá, experimente %1$s em %2$s</string>
+    <string name="invite_via">Convidar por</string>
+    <string name="rate_us_underlined"><u>Avalie-nos na Play Store</u></string>
+    <string name="donate">Donativos</string>
+    <string name="donate_underlined"><u>Donativos</u></string>
+    <string name="follow_us">Siga-nos</string>
+    <string name="copyright">V %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="additional_info">Mais informações</string>
+    <string name="app_version">Versão da aplicação: %s</string>
+    <string name="device_os">SO do dispositivo: %s</string>
+    <string name="donate_please">
+        <![CDATA[
+            Olá,<br><br>
+            espero que esteja a gostar desta aplicação. Não possui anúncios e é open source. Se quiser ajudar no desenvolvimento, pode comprar a aplicação <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> que também impedirá que este diálogo seja novamente mostrado.<br><br>
+            Obrigado!
+        ]]>
+    </string>
+    <string name="purchase">Comprar</string>
+    <string name="update_thank_you">por favor atualize a aplicação Simple Thank You para a versão mais recente</string>
+    <string name="before_asking_question_read_faq">Antes de colocar uma questão, leia as FAQ pois pode já existir uma solução para o seu problema.</string>
+    <string name="read_it">Ler</string>
+
+    <!-- New app (do not translate anything on the 4th line) -->
+    <string name="new_app">
+        <![CDATA[
+            Olá,<br><br>
+            para que saibas, foi disponibilizada recentemente uma nova aplicação:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            Podes descarregar a nova aplicação carregando no título.<br><br>
+            Obrigado
+        ]]>
+    </string>
+
+    <!-- FAQ -->
+    <string name="frequently_asked_questions">Frequently asked questions</string>
+    <string name="before_asking_question">Before you ask a question, please first read the</string>
+    <string name="faq_1_title_commons">How come I don\'t see this apps widget on the list of widgets?</string>
+    <string name="faq_1_text_commons">It is most likely because you moved the app on an SD card. There is an Android system limitation which hides the given app widgets
+        in that case. The only solution is to move the app back onto the Internal Storage via your device settings.</string>
+    <string name="faq_2_title_commons">I want to support you, but I cannot donate money. Is there anything else I can do?</string>
+    <string name="faq_2_text_commons">Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
+        You can find the guide at https://github.com/SimpleMobileTools/General-Discussion , or just shoot me a message at hello@simplemobiletools.com if you need help.</string>
+    <string name="faq_3_title_commons">I deleted some files by mistake, how can I recover them?</string>
+    <string name="faq_3_text_commons">Sadly, you cannot. Files are deleted instantly after the confirmation dialog, there is no trashbin available.</string>
+    <string name="faq_4_title_commons">I don\'t like the widget colors, can I change them?</string>
+    <string name="faq_4_text_commons">Yep, as you drag a widget on your home screen a widget config screen appears. You will see colored squares at the bottom left corner, just press them to pick a new color. You can use the slider for adjusting the alpha too.</string>
+    <string name="faq_5_title_commons">Can I somehow restore deleted files?</string>
+    <string name="faq_5_text_commons">If they were really deleted, you cannot. However, you can enable using a Recycle Bin instead of deleting in the app settings. That will just move the files in it instead of deleting them.</string>
+
+    <!-- License -->
+    <string name="notice">Esta aplicação usa as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
+    <string name="third_party_licences">Licenças de terceiros</string>
+    <string name="kotlin_title">Kotlin (linguagem de programação)</string>
+    <string name="subsampling_title">Subsampling Scale Image View (ampliação de imagens)</string>
+    <string name="glide_title">Glide (carregamento e cache de imagens)</string>
+    <string name="picasso_title">Picasso (carregamento e cache de imagens)</string>
+    <string name="cropper_title">Android Image Cropper (recorte e rotação de imagens)</string>
+    <string name="multiselect_title">RecyclerView MultiSelect (seleção múltipla de itens)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (deslizar à direita/esquerda)</string>
+    <string name="joda_title">Joda-Time (sustituto para Java date)</string>
+    <string name="stetho_title">Stetho (depuração a bases de dados)</string>
+    <string name="otto_title">Otto (canal de eventos)</string>
+    <string name="photoview_title">PhotoView (animação de GIFs)</string>
+    <string name="pattern_title">PatternLockView (proteção com padrões)</string>
+    <string name="reprint_title">Reprint (proteção com impressões digitais)</string>
+    <string name="gif_drawable_title">Gif Drawable (carregamento de GIFs)</string>
+    <string name="autofittextview_title">AutoFitTextView (redimensionamento de texto)</string>
+    <string name="robolectric_title">Robolectric (framework de testes)</string>
+    <string name="espresso_title">Espresso (apoio aos testes)</string>
+    <string name="gson_title">Gson (processador JSON)</string>
+    <string name="leak_canary_title">Leak Canary (detetor de falhas de memória)</string>
+    <string name="number_picker_title">Number Picker (seletor de números personalizado)</string>
+    <string name="exoplayer_title">ExoPlayer (reprodutor de vídeo)</string>
+    <string name="panorama_view_title">VR Panorama View (exibição panorâmica)</string>
+    <string name="sanselan_title">Apache Sanselan (leitor de meta-dados das imagens)</string>
+    <string name="filters_title">Android Photo Filters (filtros de imagens)</string>
+</resources>

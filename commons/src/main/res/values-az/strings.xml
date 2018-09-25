@@ -1,0 +1,561 @@
+<resources>
+    <string name="ok">Oldu</string>
+    <string name="cancel">Ləğv Et</string>
+    <string name="save_as">Saxla</string>
+    <string name="file_saved">Fayl uğurla saxlandı</string>
+    <string name="invalid_file_format">Keçərsiz fayl formatı</string>
+    <string name="out_of_memory_error">Yaddaş doludur xətası</string>
+    <string name="an_error_occurred">Xəta baş verdi: %s</string>
+    <string name="open_with">Bununla aç</string>
+    <string name="no_app_found">Etibarlı tətbiq tapılmadı</string>
+    <string name="set_as">Təyin et</string>
+    <string name="value_copied_to_clipboard">Miqdar panelə kopyalandı</string>
+    <string name="unknown">Bilinməyən</string>
+    <string name="always">Həmişə</string>
+    <string name="never">Heç vaxt</string>
+    <string name="details">Detallar</string>
+    <string name="notes">Qeydlər</string>
+    <string name="deleting_folder">\'%s\' qovluğu silinir</string>
+    <string name="none">None</string>
+    <string name="label">Label</string>
+
+    <!-- Favorites -->
+    <string name="favorites">Sevimlilər</string>
+    <string name="add_favorites">Sevimlilər əlavə et</string>
+    <string name="add_to_favorites">Sevimlilərə əlavə et</string>
+    <string name="remove_from_favorites">Sevimlilərdən sil</string>
+
+    <!-- Search -->
+    <string name="search">Axtar</string>
+    <string name="type_2_characters">Axtarışa başlamaq üçün ən az 2 simvol yazın.</string>
+
+    <!-- Filters -->
+    <string name="filter">Filtr</string>
+    <string name="no_items_found">Heçnə tapılmadı.</string>
+    <string name="change_filter">Filtri dəyiş</string>
+
+    <!-- Permissions -->
+    <string name="no_storage_permissions">Yaddaş icazəsi tələb olunur</string>
+    <string name="no_contacts_permission">Kontakt icazəsi tələb olunur</string>
+    <string name="no_camera_permissions">Kamera icazəsi tələb olunur</string>
+    <string name="no_audio_permissions">Səs icazəsi tələb olunur</string>
+
+    <!-- Renaming -->
+    <string name="rename_file">Faylı yenidən adlandır</string>
+    <string name="rename_folder">Qovluğu yenidən adlandır</string>
+    <string name="rename_file_error">Faylı adlandırmaq olmur</string>
+    <string name="rename_folder_error">Qovluğu adlandırmaq olmur</string>
+    <string name="rename_folder_empty">Qovluq adı boş ola bilməz</string>
+    <string name="rename_folder_exists">Bu adda qovluq artıq mövcuddur</string>
+    <string name="rename_folder_root">Yaddaşın root qovluğunu adlandırmaq olmur</string>
+    <string name="rename_folder_ok">Qovluq uğurla adlandırıldı</string>
+    <string name="renaming_folder">Qovluq adlandırma</string>
+    <string name="filename_cannot_be_empty">Fayl adı boş ola bilməz</string>
+    <string name="filename_invalid_characters">Faylın adında etibarsız simvollar var</string>
+    <string name="filename_invalid_characters_placeholder">Fayl adı \'%s\' etibarsız simvollar ehtiva edir</string>
+    <string name="extension_cannot_be_empty">Uzantı boş ola bilməz</string>
+    <string name="source_file_doesnt_exist">Kök faylı %s yoxdur</string>
+
+    <!-- Copy / Move -->
+    <string name="copy">Kopyala</string>
+    <string name="move">Yerini dəyiş</string>
+    <string name="copy_move">Kopyala / Yerini dəyiş</string>
+    <string name="copy_to">Bura kopyala</string>
+    <string name="move_to">Yerini bura dəyiş</string>
+    <string name="source">Kök</string>
+    <string name="destination">Hədəf</string>
+    <string name="select_destination">Hədəf seç</string>
+    <string name="click_select_destination">Hədəf seçmək üçün bura bas</string>
+    <string name="invalid_destination">Seçilmiş hədəfə yazmaq olmur</string>
+    <string name="please_select_destination">Xahiş olunur hədəf seçin</string>
+    <string name="source_and_destination_same">Kök və hədəf eyni ola bilməz</string>
+    <string name="copy_failed">Faylları kopyalamaq olmur</string>
+    <string name="copying">Kopyalanır…</string>
+    <string name="copying_success">Fayl uğurla kopyalandı</string>
+    <string name="copy_move_failed">Xəta baş verdi</string>
+    <string name="moving">Yerini dəyişir…</string>
+    <string name="moving_success">Faylın yeri uğurla dəyişdirildi</string>
+    <string name="moving_success_partial">Bəzi faylların yeri dəyişdirilmir</string>
+    <string name="copying_success_partial">Bəzi faylları kopyalamaq olmur</string>
+    <string name="no_files_selected">Fayl seçilməyib</string>
+    <string name="saving">Saxlanılır…</string>
+    <string name="could_not_create_folder">%s qovluğunu yaratmaq olmur</string>
+    <string name="could_not_create_file">%s faylını yaratmaq olmur</string>
+
+    <!-- Create new -->
+    <string name="create_new">Yeni yarat</string>
+    <string name="folder">Qovluq</string>
+    <string name="file">Fayl</string>
+    <string name="create_new_folder">Yeni qovluq yarat</string>
+    <string name="name_taken">Eyni adda fayl və ya qovluq artıq mövcuddur</string>
+    <string name="invalid_name">Ad etibarsız simvollar ehtiva edir</string>
+    <string name="empty_name">Zəhmət olmasa adı daxil edin</string>
+    <string name="unknown_error_occurred">Bilinməyən xəta baş verdi</string>
+
+    <!-- File operation conflicts -->
+    <string name="file_already_exists">\"%s\" faylı artıq mövcuddur</string>
+    <string name="file_already_exists_overwrite">\"%s\" faylı artıq mövcuddur. Üzərinə yazılsın?</string>
+    <string name="folder_already_exists">\"%s\" qovluğu artıq mövcuddur</string>
+    <string name="merge">Birləşdir</string>
+    <string name="overwrite">Üzərinə yaz</string>
+    <string name="skip">Keç</string>
+    <string name="append">\'_1\' ilə əlavə et</string>
+    <string name="apply_to_all">Hamsına şamil et</string>
+
+    <!-- File picker -->
+    <string name="select_folder">Qovluq seç</string>
+    <string name="select_file">Fayl seç</string>
+    <string name="confirm_storage_access_title">Xarici yaddaş icazəsini təsdiqlə</string>
+    <string name="confirm_storage_access_text">Xahiş olunur icazəni təsdiqləmək üçün gələcək ekranda SD kartın root qovluğunu seçin.</string>
+    <string name="confirm_storage_access_text_sd">Əgər SD kart görünmürsə, bunu yoxlayın</string>
+    <string name="confirm_selection">Seçimi təsdiqlə</string>
+
+    <plurals name="items">
+        <item quantity="one">%d fayl</item>
+        <item quantity="other">%d fayl</item>
+    </plurals>
+
+    <!-- Are you sure you want to delete 5 items? -->
+    <plurals name="delete_items">
+        <item quantity="one">%d fayl</item>
+        <item quantity="other">%d fayl</item>
+    </plurals>
+
+    <plurals name="deleting_items">
+        <item quantity="one">%d fayl silinir</item>
+        <item quantity="other">%d fayl silinir</item>
+    </plurals>
+
+    <!-- Storages -->
+    <string name="select_storage">Yaddaş seç</string>
+    <string name="internal">Daxili</string>
+    <string name="sd_card">SD Kart</string>
+    <string name="root">Root</string>
+    <string name="wrong_root_selected">Seçilən qovluq yanlışdır, xahiş olunur SD kartın root qovluğunu seçin</string>
+    <string name="sd_card_otg_same">SD kart və OTG cihaz yolu eyni ola bilməz</string>
+    <string name="app_on_sd_card">Görünür tətbiqi SD karta yükləmisiniz, bu widgetlərin işləməsinin qarşısını alır. Siz widgetləri əlçatan widgetlər siyahısında belə görə bilməyəcəksiniz.
+        Bu sistem məhdudiyyətidir, əgər widgetlərin işləməsini istəyirsinizsə, tətbiqi daxili yaddaşa köçürməlisiniz.</string>
+
+    <!-- File properties -->
+    <string name="properties">Xüsusiyyətlər</string>
+    <string name="path">Yol</string>
+    <string name="items_selected">Fayl seçildi</string>
+    <string name="direct_children_count">Alt qovluq sayı</string>
+    <string name="files_count">Bütün faylların sayı</string>
+    <string name="resolution">Görüntü imkanı</string>
+    <string name="duration">Uzunluq</string>
+    <string name="artist">Müğənni</string>
+    <string name="album">Albom</string>
+    <string name="focal_length">Fokus məsafəsi</string>
+    <string name="exposure_time">Poza vaxtı</string>
+    <string name="iso_speed">ISO sürəti</string>
+    <string name="f_number">Diyafram</string>
+    <string name="camera">Kamera</string>
+    <string name="exif">EXIF</string>
+    <string name="song_title">Musiqi başlığı</string>
+
+    <!-- Color customization -->
+    <string name="background_color">Arxaplan rəngi</string>
+    <string name="text_color">Yazı rəngi</string>
+    <string name="primary_color">Birinci rəng</string>
+    <string name="foreground_color">Önplan rəngi</string>
+    <string name="app_icon_color">Tətbiq ikonu rəngi</string>
+    <string name="restore_defaults">Standarta qaytar</string>
+    <string name="change_color">Rəngi dəyiş</string>
+    <string name="theme">Mövzu</string>
+    <string name="changing_color_description">Rəngi dəyişmək onu Özəl mövzuya çevirəcək</string>
+    <string name="save">Saxla</string>
+    <string name="discard">Yoxsay</string>
+    <string name="undo_changes">Dəyişiklikləri geri al</string>
+    <string name="undo_changes_confirmation">Dəyişiklikləri geri almaq istədiyinizə əminsiniz?</string>
+    <string name="save_before_closing">Yadda saxlamadığınız dəyişikliklər var. Çıxmazdan əvvəl saxlanılsın?</string>
+    <string name="apply_to_all_apps">Rəngləri bütün Simple Apps tətbiqlərinə şamil et</string>
+    <string name="share_colors_success">Rənglər uğurla yeniləndi. \'Paylanmış\' adlı yeni tema əlavə edildi, xahiş olunur gələcəkdə bütün tətbiqlərin yeniləmələri üçün bundan istifadə edin.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Lütfən bağış edin <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Bu funksiyanı açdığınız və təkmilləşdirməni dəstəklədiyiniz üçün Sadə Təşəkkür</a>. Çox Sağolun!
+        ]]>
+    </string>
+
+    <!-- Themes -->
+    <string name="light_theme">İşıqlı</string>
+    <string name="dark_theme">Qaranlıq</string>
+    <string name="solarized">Közərmiş</string>
+    <string name="dark_red">Qaraqırmızı</string>
+    <string name="black_white">Ağ və Qara</string>
+    <string name="custom">Özəl</string>
+    <string name="shared">Paylanmış</string>
+
+    <!-- What's new -->
+    <string name="whats_new">Yeni nə var</string>
+    <string name="whats_new_disclaimer">* burada yalnız böyük təzələmələr sıralanıb, həmişə əlavə yeniliklər də olur</string>
+
+    <!-- Actionbar items -->
+    <string name="delete">Sil</string>
+    <string name="remove">Sil</string>
+    <string name="rename">Yenidən adlandır</string>
+    <string name="share">Paylaş</string>
+    <string name="share_via">Paylaş</string>
+    <string name="select_all">Hamsını seç</string>
+    <string name="hide">Gizlət</string>
+    <string name="unhide">Gizlətmə</string>
+    <string name="hide_folder">Qovluğu gizlət</string>
+    <string name="unhide_folder">Qovluğu gizlətmə</string>
+    <string name="temporarily_show_hidden">Gizlənmişi müvəqqəti göstər</string>
+    <string name="stop_showing_hidden">Gizlənmiş mediyanı göstərmə</string>
+    <string name="maximum_share_reached">Bu qədər faylı bir dəfəyə paylaşa bilməzsiniz</string>
+    <string name="empty_and_disable_recycle_bin">Zibil qutusunu boşalt və qapat</string>
+    <string name="undo">Geri al</string>
+    <string name="redo">Təkrar et</string>
+
+    <!-- Sorting -->
+    <string name="sort_by">Sırala</string>
+    <string name="name">Ad</string>
+    <string name="size">Ölçü</string>
+    <string name="last_modified">Son dəyişdirilən</string>
+    <string name="date_taken">Götürülmə tarixi</string>
+    <string name="title">Başlıq</string>
+    <string name="filename">Fayl adı</string>
+    <string name="extension">Fayl çıxışı</string>
+    <string name="ascending">Artan</string>
+    <string name="descending">Azalan</string>
+    <string name="use_for_this_folder">Yalnız bu qovluq üçün işlət</string>
+
+    <!-- Confirmation dialog -->
+    <string name="proceed_with_deletion">Silmə prosesini təsdiqləyirsiniz?</string>
+    <string name="deletion_confirmation">%s faylı silmək istdəyinizə əminsiniz?</string>    <!-- Are you sure you want to delete 5 items? -->
+    <string name="move_to_recycle_bin_confirmation">%s\'i zibil qutusuna atmaq istədiyinizə əminsiniz?</string>    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="are_you_sure_delete">Faylı silmək istədiyinizə əminsiniz?</string>
+    <string name="are_you_sure_recycle_bin">Bu faylı zibil qutusuna atmaq istədiyinizə əminsiniz?</string>
+    <string name="do_not_ask_again">Bu oturumda birdə soruşma</string>
+    <string name="yes">Bəli</string>
+    <string name="no">Xeyr</string>
+
+    <plurals name="delete_warning">
+        <item quantity="one">XƏBƏRDARLIQ: Qovluğu silirsiniz</item>
+        <item quantity="other">XƏBƏRDARLIQ: %d sayda qovluğu silirsiniz</item>
+    </plurals>
+
+    <!-- Password protection -->
+    <string name="pin">PIN</string>
+    <string name="enter_pin">PIN\'i daxil edin</string>
+    <string name="please_enter_pin">Xahiş olunur PIN\'i daxil edin</string>
+    <string name="wrong_pin">PIN yanlışdır</string>
+    <string name="repeat_pin">PIN\'i təkrarlayın</string>
+    <string name="pattern">Model</string>
+    <string name="insert_pattern">Model daxil edin</string>
+    <string name="wrong_pattern">Yanlış model</string>
+    <string name="repeat_pattern">Modeli təkrarlayın</string>
+    <string name="fingerprint">Barmaq izi</string>
+    <string name="add_fingerprint">Barmaq izi əlavə et</string>
+    <string name="place_finger">Xahiş olunur barmağınızı barmaq izi sensoru üzərinə yerləşdirin</string>
+    <string name="authentication_failed">Uyğunlaşdırma uğursuzdur</string>
+    <string name="authentication_blocked">Uyğunlaşdırma bloklanıb, biraz sonra yoxlayın</string>
+    <string name="no_fingerprints_registered">Qeydiyyata alınmış heçbir barmaq izi yoxdur, xahiş olunur cihazınızın Parametrlərindən əlavə edəsiniz</string>
+    <string name="go_to_settings">Parametrlərə get</string>
+    <string name="protection_setup_successfully">Şifrə təyini uğurludur. Əgər şifrəni unutsanız, tətbiqi yenidən yükləyin.</string>
+    <string name="fingerprint_setup_successfully">Qoruma təyini uğurludur. Əgər təzələmə problemi yaşasanız, tətbiqi yenidən yükləyin.</string>
+
+    <!-- Times -->
+    <string name="yesterday">Dünən</string>
+    <string name="today">Bugün</string>
+    <string name="tomorrow">Sabah</string>
+    <string name="seconds_raw">saniyələr</string>
+    <string name="minutes_raw">dəqiqələr</string>
+    <string name="hours_raw">saatlar</string>
+    <string name="days_raw">günlər</string>
+
+    <plurals name="seconds">
+        <item quantity="one">%d saniyə</item>
+        <item quantity="other">%d saniyə</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d dəqiqə</item>
+        <item quantity="other">%d dəqiqə</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d saat</item>
+        <item quantity="other">%d saat</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d gün</item>
+        <item quantity="other">%d gün</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d həftə</item>
+        <item quantity="other">%d həftə</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d ay</item>
+        <item quantity="other">%d ay</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d il</item>
+        <item quantity="other">%d il</item>
+    </plurals>
+
+    <!-- For example: I will be there in 5 minutes -->
+    <plurals name="in_seconds">
+        <item quantity="one">%d saniyə</item>
+        <item quantity="other">%d saniyə</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d dəqiqə</item>
+        <item quantity="other">%d dəqiqə</item>
+    </plurals>
+    <plurals name="in_hours">
+        <item quantity="one">%d saat</item>
+        <item quantity="other">%d saat</item>
+    </plurals>
+
+    <!-- For example: Event reminder: 3 minutes before -->
+    <plurals name="seconds_before">
+        <item quantity="one">%d saniyə əvvəl</item>
+        <item quantity="other">%d saniyə əvvəl</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="one">%d dəqiqə əvvəl</item>
+        <item quantity="other">%d dəqiqə əvvəl</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="one">%d saat əvvəl</item>
+        <item quantity="other">%d saat əvvəl</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="one">%d gün əvvəl</item>
+        <item quantity="other">%d gün əvvəl</item>
+    </plurals>
+
+    <!-- For example: Postpone reminder by 3 minutes -->
+    <plurals name="by_seconds">
+        <item quantity="one">%d saniyə</item>
+        <item quantity="other">%d saniyə</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d dəqiqə</item>
+        <item quantity="other">%d dəqiqə</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d saat</item>
+        <item quantity="other">%d saat</item>
+    </plurals>
+
+    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+    <string name="alarm_goes_off_in">Zəng dayanana qədər qalan vaxt:\n%s</string>
+    <string name="reminder_triggers_in">Xatırladıcının işləməsinə qalan vaxt:\n%s</string>
+    <string name="alarm_warning">Xahiş olunur zəngə istinad etməzdən əvvəl işləyib işləmədiyini yoxlayın. Güc qoruma parametrləri onun işləməsində problem yarada bilər.</string>
+    <string name="reminder_warning">Xahiş olunur xatırladıcılara istinad etməzdən əvvəl işləyib işləmədiyini yoxlayın. Güc qoruma parametrləri onların işləməsində problem yarada bilər.</string>
+
+    <!-- Alarms -->
+    <string name="alarm">Zəng</string>
+    <string name="snooze">Yuxu</string>
+    <string name="dismiss">Burax</string>
+    <string name="no_reminder">Xatırladıcı yoxdur</string>
+    <string name="at_start">Başlanğıcda</string>
+    <string name="system_sounds">Sistem səsləri</string>
+    <string name="your_sounds">Sizin səsləriniz</string>
+    <string name="add_new_sound">Yeni səs əlavə et</string>
+    <string name="no_sound">Səs yoxdur</string>
+
+    <!-- Settings -->
+    <string name="settings">Parametrlər</string>
+    <string name="purchase_simple_thank_you">Sadə Təşəkkür\'ü Alın</string>
+    <string name="customize_colors">Rəngləri dəyiş</string>
+    <string name="customize_widget_colors">Widget rənglərini dəyiş</string>
+    <string name="use_english_language">İngilis dilində işlət</string>
+    <string name="avoid_whats_new">Başlanğıcda yeni nə var göstərmə</string>
+    <string name="show_hidden_items">Gizli faylları göstər</string>
+    <string name="font_size">Yazı ölçüsü</string>
+    <string name="small">Kiçik</string>
+    <string name="medium">Orta</string>
+    <string name="large">Böyük</string>
+    <string name="extra_large">Çox böyük</string>
+    <string name="password_protect_hidden_items">Şifrə gizlənmiş tətbiqin görünürlüyünü qoruyur</string>
+    <string name="password_protect_whole_app">Şifrə bütün tətbiqi qoruyur</string>
+    <string name="keep_last_modified">Faylı kopyalama/daşıma/yenidən adlandırma proseslərində son faylı saxla</string>
+    <string name="show_info_bubble">Sürüşdürmə çubuğu ilə hərəkət zamanı məlumat ekranını göstər</string>
+    <string name="prevent_phone_from_sleeping">Tətbiq aktiv halda olduqda telefonun yuxuya getməsinin qarşısını al</string>
+    <string name="skip_delete_confirmation">Silmə təsdiq dialoqunu göstərmə</string>
+    <string name="enable_pull_to_refresh">Yuxarıdan çək-təzələ\'ni aç</string>
+    <string name="use_24_hour_time_format">24 saat formatından istifadə et</string>
+    <string name="sunday_first">Həftəyə Bazar Ertəsindən başla</string>
+    <string name="widgets">Widgetlər</string>
+    <string name="use_same_snooze">Həmişə eyni yuxu intervalından istifadə et</string>
+    <string name="snooze_time">Yuxu intervalı</string>
+    <string name="vibrate_on_button_press">Düyməyə toxunduqda titrə</string>
+    <string name="move_items_into_recycle_bin">Faylları silməkdənsə Zibil qutusuna at</string>
+    <string name="recycle_bin_cleaning_interval">Zibil qutusu təmizlik intervalı</string>
+    <string name="empty_recycle_bin">Zibil qutusunu boşalt</string>
+    <string name="force_portrait_mode">Portret moduna zorla</string>
+
+    <!-- Setting sections -->
+    <string name="visibility">Görünürlük</string>
+    <string name="security">Qoruma</string>
+    <string name="scrolling">Sürüşdürmə</string>
+    <string name="file_operations">Fayl əməliyyatları</string>
+    <string name="recycle_bin">Zibil Qutusu</string>
+    <string name="saving_label">Saxlama</string>
+    <string name="startup">Başlanğıc</string>
+    <string name="text">Mətn</string>
+
+    <!-- Recycle Bin -->
+    <string name="restore_this_file">Bu faylı geri qaytar</string>
+    <string name="restore_selected_files">Bu faylları geri qaytar</string>
+    <string name="restore_all_files">Bütün faylları geri qaytar</string>
+    <string name="recycle_bin_emptied">Zibil qutusu uğurla boşaldıldı</string>
+    <string name="files_restored_successfully">Fayllar uğurla geri qaytarıldı</string>
+    <string name="empty_recycle_bin_confirmation">Zibil qutusunu boşaltmaq istədiyinizə əminsiniz? Fayllar tamamilə itiriləcək.</string>
+    <string name="recycle_bin_empty">Zibil qutusu boşdur</string>
+
+    <!-- Import / Export -->
+    <string name="importing">Daxil edilir…</string>
+    <string name="exporting">Çıxarılır…</string>
+    <string name="importing_successful">Daxiletmə uğurludur</string>
+    <string name="exporting_successful">Çıxarış uğurludur</string>
+    <string name="importing_failed">Daxiletmə uğursuzdur</string>
+    <string name="exporting_failed">Çıxarış uğursuzdur</string>
+    <string name="importing_some_entries_failed">Bəzi girişləri daxil etmək olmur</string>
+    <string name="exporting_some_entries_failed">Bəzi girişləri çıxarmaq olmur</string>
+    <string name="no_entries_for_exporting">Çıxarış üçün heçbir giriş tapılmadı</string>
+
+    <!-- OTG devices -->
+    <string name="otg">OTG</string>
+    <string name="confirm_otg_storage_access_text">Xahiş edirik icazə vermək üçün sonrakı ekranda çıxan OTG cihazın root qovluğunu seçin</string>
+    <string name="wrong_root_selected_otg">Yanlış qovluq seçilib, xahiş olunur OTG cihazın root qovluğunu seçin</string>
+
+    <!-- Dates -->
+    <string name="january">Yanvar</string>
+    <string name="february">Fevral</string>
+    <string name="march">Mart</string>
+    <string name="april">Aprel</string>
+    <string name="may">May</string>
+    <string name="june">İyun</string>
+    <string name="july">İyul</string>
+    <string name="august">Avqust</string>
+    <string name="september">Sentyabr</string>
+    <string name="october">Oktyabr</string>
+    <string name="november">Noyabr</string>
+    <string name="december">Dekabr</string>
+
+    <!-- in January -->
+    <string name="in_january">Yanvarda</string>
+    <string name="in_february">Fevralda</string>
+    <string name="in_march">Martda</string>
+    <string name="in_april">Apreldə</string>
+    <string name="in_may">Mayda</string>
+    <string name="in_june">İyunda</string>
+    <string name="in_july">İyulda</string>
+    <string name="in_august">Avqustda</string>
+    <string name="in_september">Sentyabrda</string>
+    <string name="in_october">Oktyabrda</string>
+    <string name="in_november">Noyabrda</string>
+    <string name="in_december">Dekabrda</string>
+
+    <string name="monday">Bazar Ertəsi</string>
+    <string name="tuesday">Çərşənbə Axşamı</string>
+    <string name="wednesday">Çərşənbə</string>
+    <string name="thursday">Cümə Axşamı</string>
+    <string name="friday">Cümə</string>
+    <string name="saturday">Şənbə</string>
+    <string name="sunday">Bazar</string>
+
+    <string name="monday_letter">B.E</string>
+    <string name="tuesday_letter">Ç.A</string>
+    <string name="wednesday_letter">Ç</string>
+    <string name="thursday_letter">C.A</string>
+    <string name="friday_letter">C</string>
+    <string name="saturday_letter">Ş</string>
+    <string name="sunday_letter">B</string>
+
+    <string name="monday_short">Bzr.E</string>
+    <string name="tuesday_short">Çrş.A</string>
+    <string name="wednesday_short">Çrş</string>
+    <string name="thursday_short">Cü.A</string>
+    <string name="friday_short">Cü</string>
+    <string name="saturday_short">Şnb</string>
+    <string name="sunday_short">Bzr</string>
+
+    <!-- About -->
+    <string name="about">Haqqında</string>
+    <string name="website_label">Kök koda keçiş üçün</string>
+    <string name="email_label">Geri dönüş və tövsiyələrinizi göndərin</string>
+    <string name="more_apps_underlined"><u>Daha çox tətbiq</u></string>
+    <string name="third_party_licences_underlined"><u>Üçüncü partiya lisenziyaları</u></string>
+    <string name="invite_friends_underlined"><u>Dostları dəvət et</u></string>
+    <string name="share_text">Ey! gəl sən də %2$s\'də %1$s\'ə nəzər yetir!</string>
+    <string name="invite_via">Dəvət et</string>
+    <string name="rate_us_underlined"><u>Dəyərləndir</u></string>
+    <string name="donate">İanə et</string>
+    <string name="donate_underlined"><u>İanə et</u></string>
+    <string name="follow_us">İzlə</string>
+    <string name="copyright">v %1$s\nMüəllif Hüquqları © Simple Mobile Tools %2$d</string>
+    <string name="additional_info">Əlavə məlumat</string>
+    <string name="app_version">Tətbiq versiyası: %s</string>
+    <string name="device_os">Cihaz ƏS: %s</string>
+    <string name="donate_please">
+        <![CDATA[
+            Salam,<br><br>
+            arzu edirəm tətbiqdən zövq alırsan. Reklam ehtiva etmir, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
+            Thank you!
+        ]]>
+    </string>
+    <string name="purchase">Ödəniş Et</string>
+    <string name="update_thank_you">Xahiş olunur Sadə Təşəkkür tətbiqini ən son versiyaya yeniləyin</string>
+    <string name="before_asking_question_read_faq">Sual verməmişdən qabaq, Tez-tez soruşulan sualları oxuyun, ola bilər cavab oradadır.</string>
+    <string name="read_it">Read it</string>
+
+    <!-- New app (do not translate anything on the 4th line) -->
+    <string name="new_app">
+        <![CDATA[
+            Hey,<br><br>
+            just letting you know that a new app has been released recently:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            You can download it by pressing the title.<br><br>
+            Thanks
+        ]]>
+    </string>
+
+    <!-- FAQ -->
+    <string name="frequently_asked_questions">Tez-tez Soruşulan Suallar</string>
+    <string name="before_asking_question">Xahiş olunur sual verməmişdən qabaq aşağıdakı bölməni oxuyun</string>
+    <string name="faq_1_title_commons">How come I don\'t see this apps widget on the list of widgets?</string>
+    <string name="faq_1_text_commons">It is most likely because you moved the app on an SD card. There is an Android system limitation which hides the given app widgets
+        in that case. The only solution is to move the app back onto the Internal Storage via your device settings.</string>
+    <string name="faq_2_title_commons">I want to support you, but I cannot donate money. Is there anything else I can do?</string>
+    <string name="faq_2_text_commons">Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
+        You can find the guide at https://github.com/SimpleMobileTools/General-Discussion , or just shoot me a message at hello@simplemobiletools.com if you need help.</string>
+    <string name="faq_3_title_commons">I deleted some files by mistake, how can I recover them?</string>
+    <string name="faq_3_text_commons">Sadly, you cannot. Files are deleted instantly after the confirmation dialog, there is no trashbin available.</string>
+    <string name="faq_4_title_commons">I don\'t like the widget colors, can I change them?</string>
+    <string name="faq_4_text_commons">Yep, as you drag a widget on your home screen a widget config screen appears. You will see colored squares at the bottom left corner, just press them to pick a new color. You can use the slider for adjusting the alpha too.</string>
+    <string name="faq_5_title_commons">Can I somehow restore deleted files?</string>
+    <string name="faq_5_text_commons">If they were really deleted, you cannot. However, you can enable using a Recycle Bin instead of deleting in the app settings. That will just move the files in it instead of deleting them.</string>
+
+    <!-- License -->
+    <string name="notice">Bu tətbiq həyatımı asanlaşdırmaq üçün aşağıdakı üçüncü partiya tətbiq kitabxanalarından istifadə edir. Təşəkkürlər.</string>
+    <string name="third_party_licences">Üçüncü partiya lisenziyaları</string>
+    <string name="kotlin_title">Kotlin (proqramlaşdırma dili)</string>
+    <string name="subsampling_title">Subsampling Scale Image View (yaxınlaşdırılan şəkillər)</string>
+    <string name="glide_title">Glide (şəkil açma və keşləmə)</string>
+    <string name="picasso_title">Picasso (image loading and caching)</string>
+    <string name="cropper_title">Android Image Cropper (image crop and rotate)</string>
+    <string name="multiselect_title">RecyclerView MultiSelect (selecting multiple list items)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (right to left swiping)</string>
+    <string name="joda_title">Joda-Time (Java date replacement)</string>
+    <string name="stetho_title">Stetho (debugging databases)</string>
+    <string name="otto_title">Otto (event bus)</string>
+    <string name="photoview_title">PhotoView (zoomable GIFs)</string>
+    <string name="pattern_title">PatternLockView (pattern protection)</string>
+    <string name="reprint_title">Reprint (fingerprint protection)</string>
+    <string name="gif_drawable_title">Gif Drawable (loading GIFs)</string>
+    <string name="autofittextview_title">AutoFitTextView (resizing text)</string>
+    <string name="robolectric_title">Robolectric (testing framework)</string>
+    <string name="espresso_title">Espresso (testing helper)</string>
+    <string name="gson_title">Gson (JSON parser)</string>
+    <string name="leak_canary_title">Leak Canary (memory leak detector)</string>
+    <string name="number_picker_title">Number Picker (customizable number picker)</string>
+    <string name="exoplayer_title">ExoPlayer (video player)</string>
+    <string name="panorama_view_title">VR Panorama View (displaying panoramas)</string>
+    <string name="sanselan_title">Apache Sanselan (reading image metadata)</string>
+    <string name="filters_title">Android Photo Filters (image filters)</string>
+</resources>

@@ -1,7 +1,9 @@
 package com.mindorks.waprofileimage.waprofileImage.camera
 
 import android.Manifest
+import android.content.ContentValues
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.Configuration
 import android.graphics.*
@@ -11,6 +13,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.HandlerThread
+import android.provider.MediaStore
 import android.support.v4.app.ActivityCompat
 import android.support.v4.app.Fragment
 import android.support.v4.content.ContextCompat
@@ -20,6 +23,9 @@ import android.util.SparseIntArray
 import android.view.*
 import android.webkit.ValueCallback
 import com.mindorks.waprofileimage.R
+import com.mindorks.waprofileimage.waprofileImage.WAProfileImage.IMAGE_PICKED_KEY
+import com.mindorks.waprofileimage.waprofileImage.WAProfileImage.RESPONSE_CODE_OPEN_CAMERA
+import java.io.ByteArrayOutputStream
 import java.io.File
 import java.util.Arrays
 import java.util.Collections
@@ -129,8 +135,8 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
      */
     private val onImageAvailableListener = ImageReader.OnImageAvailableListener {
         val img = it.acquireNextImage()
-        backgroundHandler?.post(ImageSaver(img, file,isSuccessCallback = ValueCallback {
-            activity!!.finish()
+        backgroundHandler?.post(ImageSaver(img, file, isSuccessCallback = ValueCallback {
+            //   activity!!.finish()
 
         }))
     }
@@ -699,8 +705,12 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                                                         request: CaptureRequest,
                                                         result: TotalCaptureResult) {
                             activity!!.showToast("Saved: $file")
+
                             Log.d(TAG, file.toString())
                             unlockFocus()
+                            sendOutPut(file)
+
+
                         }
                     }
                 } else {
@@ -722,6 +732,15 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                 Log.e(TAG, e.toString())
             }
         }
+
+    }
+
+    private fun sendOutPut(file: File) {
+        val i = Intent()
+        i.putExtra(IMAGE_PICKED_KEY, file.absolutePath)
+        activity!!.setResult(RESPONSE_CODE_OPEN_CAMERA, i)
+        activity!!.finish()
+
 
     }
 

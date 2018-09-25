@@ -1,0 +1,559 @@
+<resources>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="save_as">保存</string>
+    <string name="file_saved">文件保存成功</string>
+    <string name="invalid_file_format">无效文件格式</string>
+    <string name="out_of_memory_error">内存不足</string>
+    <string name="an_error_occurred">啊哦，出错啦： %s</string>
+    <string name="open_with">打开方式</string>
+    <string name="no_app_found">未找到可用应用</string>
+    <string name="set_as">设置为</string>
+    <string name="value_copied_to_clipboard">颜色值已复制到剪贴板</string>
+    <string name="unknown">未知</string>
+    <string name="always">总是</string>
+    <string name="never">从不</string>
+    <string name="details">详细</string>
+    <string name="notes">笔记</string>
+    <string name="deleting_folder">正在删除目录 \'%s\'</string>
+    <string name="none">None</string>
+    <string name="label">Label</string>
+
+    <!-- Favorites -->
+    <string name="favorites">收藏</string>
+    <string name="add_favorites">添加收藏</string>
+    <string name="add_to_favorites">添加到收藏</string>
+    <string name="remove_from_favorites">从收藏中移除</string>
+
+    <!-- Search -->
+    <string name="search">搜索</string>
+    <string name="type_2_characters">请输入至少两个字符来开始搜索</string>
+
+    <!-- Filters -->
+    <string name="filter">过滤</string>
+    <string name="no_items_found">找不到任何项目。</string>
+    <string name="change_filter">更改过滤器</string>
+
+    <!-- Permissions -->
+    <string name="no_storage_permissions">请授予存储权限</string>
+    <string name="no_contacts_permission">请授予通讯录权限</string>
+    <string name="no_camera_permissions">请授予相机权限</string>
+    <string name="no_audio_permissions">请授予音频权限</string>
+
+    <!-- Renaming -->
+    <string name="rename_file">重命名文件</string>
+    <string name="rename_folder">重命名文件夹</string>
+    <string name="rename_file_error">无法重命名文件</string>
+    <string name="rename_folder_error">无法重命名文件夹</string>
+    <string name="rename_folder_empty">文件夹名不能为空</string>
+    <string name="rename_folder_exists">文件夹名已存在</string>
+    <string name="rename_folder_root">无法重命名存储器的根目录</string>
+    <string name="rename_folder_ok">文件夹重命名成功</string>
+    <string name="renaming_folder">重命名中…</string>
+    <string name="filename_cannot_be_empty">文件名不能为空</string>
+    <string name="filename_invalid_characters">文件名包含非法字符</string>
+    <string name="filename_invalid_characters_placeholder">Filename \'%s\' contains invalid characters</string>
+    <string name="extension_cannot_be_empty">扩展名不能为空</string>
+    <string name="source_file_doesnt_exist">原文件 %s 不存在</string>
+
+    <!-- Copy / Move -->
+    <string name="copy">复制</string>
+    <string name="move">移动</string>
+    <string name="copy_move">复制／移动</string>
+    <string name="copy_to">复制到</string>
+    <string name="move_to">移动到</string>
+    <string name="source">原始路径</string>
+    <string name="destination">目标路径</string>
+    <string name="select_destination">选择目标路径</string>
+    <string name="click_select_destination">点击此处以设置目标路径</string>
+    <string name="invalid_destination">无法写入到选中目标路径</string>
+    <string name="please_select_destination">请选择目标路径</string>
+    <string name="source_and_destination_same">原始路径和目标路径不能相同</string>
+    <string name="copy_failed">无法复制文件</string>
+    <string name="copying">正在复制…</string>
+    <string name="copying_success">复制成功</string>
+    <string name="copy_move_failed">操作失败</string>
+    <string name="moving">正在移动…</string>
+    <string name="moving_success">文件移动成功</string>
+    <string name="moving_success_partial">无法移动相同文件</string>
+    <string name="copying_success_partial">无法复制相同文件</string>
+    <string name="no_files_selected">未选择文件</string>
+    <string name="saving">正在保存…</string>
+    <string name="could_not_create_folder">创建文件夹 %s 失败</string>
+    <string name="could_not_create_file">创建文件 %s 失败</string>
+
+    <!-- Create new -->
+    <string name="create_new">新建</string>
+    <string name="folder">文件夹</string>
+    <string name="file">文件</string>
+    <string name="create_new_folder">新建文件夹</string>
+    <string name="name_taken">同名文件夹或文件已存在</string>
+    <string name="invalid_name">名称包含非法字符</string>
+    <string name="empty_name">请输入名称</string>
+    <string name="unknown_error_occurred">未知错误</string>
+
+    <!-- File operation conflicts -->
+    <string name="file_already_exists">文件 \"%s\" 已存在</string>
+    <string name="file_already_exists_overwrite">文件 \"%s\" 已存在。是否覆盖？</string>
+    <string name="folder_already_exists">文件夹 \"%s\" 已存在</string>
+    <string name="merge">合并</string>
+    <string name="overwrite">覆盖</string>
+    <string name="skip">跳过</string>
+    <string name="append">应用到 \'_1\'</string>
+    <string name="apply_to_all">应用到全部冲突项</string>
+
+    <!-- File picker -->
+    <string name="select_folder">选择文件夹</string>
+    <string name="select_file">选择文件</string>
+    <string name="confirm_storage_access_title">确认外部存储器访问权限</string>
+    <string name="confirm_storage_access_text">请选择 SD 卡根目录并授予写权限</string>
+    <string name="confirm_storage_access_text_sd">如果您未找到 SD 卡目录，请尝试</string>
+    <string name="confirm_selection">确认选择</string>
+
+    <plurals name="items">
+        <item quantity="one">%d 个项目</item>
+        <item quantity="other">%d 个项目</item>
+    </plurals>
+
+    <!-- Are you sure you want to delete 5 items? -->
+    <plurals name="delete_items">
+        <item quantity="one">%d 个项目</item>
+        <item quantity="other">%d 个项目</item>
+    </plurals>
+
+    <plurals name="deleting_items">
+        <item quantity="one">正在删除 %d 个项目</item>
+        <item quantity="other">正在删除 %d 个项目</item>
+    </plurals>
+
+    <!-- Storages -->
+    <string name="select_storage">选择存储器</string>
+    <string name="internal">内部存储器</string>
+    <string name="sd_card">SD 卡</string>
+    <string name="root">根目录</string>
+    <string name="wrong_root_selected">目录选择错误，请选择 SD 卡</string>
+    <string name="sd_card_otg_same">SD 卡和 OTG 设备路径不能相同</string>
+    <string name="app_on_sd_card">您似乎已将应用程序安装在 SD 卡上，这使得应用的小部件不可用。你将无法在小部件列表里看到它们。
+        这是一个系统限制，所以如果你想要使用这些小部件，你必须将应用移回内部存储器。</string>
+
+    <!-- File properties -->
+    <string name="properties">属性</string>
+    <string name="path">路径</string>
+    <string name="items_selected">已选择项目</string>
+    <string name="direct_children_count">子目录数</string>
+    <string name="files_count">总文件数</string>
+    <string name="resolution">分辨率</string>
+    <string name="duration">时长</string>
+    <string name="artist">艺术家</string>
+    <string name="album">专辑</string>
+    <string name="focal_length">焦距</string>
+    <string name="exposure_time">曝光时间</string>
+    <string name="iso_speed">ISO 速度</string>
+    <string name="f_number">光圈</string>
+    <string name="camera">相机</string>
+    <string name="exif">EXIF</string>
+    <string name="song_title">歌曲标题</string>
+
+    <!-- Color customization -->
+    <string name="background_color">背景色</string>
+    <string name="text_color">文本颜色</string>
+    <string name="primary_color">主体色</string>
+    <string name="foreground_color">前景色</string>
+    <string name="app_icon_color">应用图标颜色</string>
+    <string name="restore_defaults">恢复默认</string>
+    <string name="change_color">修改颜色</string>
+    <string name="theme">主题</string>
+    <string name="changing_color_description">更改颜色将切换到自定义主题</string>
+    <string name="save">保存</string>
+    <string name="discard">丢弃</string>
+    <string name="undo_changes">撤销更改</string>
+    <string name="undo_changes_confirmation">是否撤销您的更改？</string>
+    <string name="save_before_closing">您尚未保存更改，是否保存？</string>
+    <string name="apply_to_all_apps">应用到所有简约系列应用</string>
+    <string name="share_colors_success">颜色更改成功。已添加名为“共享”的新主题，以后你可以使用它来更改所有应用的颜色。</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            请购买 <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> 以解锁此功能并支持开发。感谢！
+        ]]>
+    </string>
+
+    <!-- Themes -->
+    <string name="light_theme">浅色主题</string>
+    <string name="dark_theme">深色主题</string>
+    <string name="solarized">Solarized</string>
+    <string name="dark_red">深红</string>
+    <string name="black_white">黑白</string>
+    <string name="custom">自定义</string>
+    <string name="shared">共享</string>
+
+    <!-- What's new -->
+    <string name="whats_new">更新日志</string>
+    <string name="whats_new_disclaimer">* 此处仅列举了重大更新，更多修正可在使用中体验</string>
+
+    <!-- Actionbar items -->
+    <string name="delete">删除</string>
+    <string name="remove">移除</string>
+    <string name="rename">重命名</string>
+    <string name="share">分享</string>
+    <string name="share_via">分享到</string>
+    <string name="select_all">全选</string>
+    <string name="hide">隐藏</string>
+    <string name="unhide">取消隐藏</string>
+    <string name="hide_folder">隐藏文件夹</string>
+    <string name="unhide_folder">取消隐藏文件夹</string>
+    <string name="temporarily_show_hidden">显示／隐藏缓存内容</string>
+    <string name="stop_showing_hidden">不显示隐藏的媒体文件</string>
+    <string name="maximum_share_reached">您不能一次分享太多的内容</string>
+    <string name="empty_and_disable_recycle_bin">清空并禁用回收站</string>
+    <string name="undo">撤销</string>
+    <string name="redo">重做</string>
+
+    <!-- Sorting -->
+    <string name="sort_by">排序方式</string>
+    <string name="name">名称</string>
+    <string name="size">大小</string>
+    <string name="last_modified">修改日期</string>
+    <string name="date_taken">拍摄日期</string>
+    <string name="title">标题</string>
+    <string name="filename">文件名</string>
+    <string name="extension">扩展名</string>
+    <string name="ascending">递增</string>
+    <string name="descending">递减</string>
+    <string name="use_for_this_folder">仅应用于此文件夹</string>
+
+    <!-- Confirmation dialog -->
+    <string name="proceed_with_deletion">是否执行此删除操作？</string>
+    <string name="deletion_confirmation">你确定要删除 %s？</string>    <!-- Are you sure you want to delete 5 items? -->
+    <string name="move_to_recycle_bin_confirmation">你确定要移动 %s到回收站？</string>    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="are_you_sure_delete">你确定要删除此项目吗？</string>
+    <string name="are_you_sure_recycle_bin">你确定要移动此项目到回收站吗？</string>
+    <string name="do_not_ask_again">不再提醒</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <plurals name="delete_warning">
+        <item quantity="one">警告: 你正在删除此目录</item>
+        <item quantity="other">警告: 你正在删除 %d 目录</item>
+    </plurals>
+
+    <!-- Password protection -->
+    <string name="pin">密码</string>
+    <string name="enter_pin">输入密码</string>
+    <string name="please_enter_pin">请输入密码</string>
+    <string name="wrong_pin">密码错误</string>
+    <string name="repeat_pin">重复密码</string>
+    <string name="pattern">图案</string>
+    <string name="insert_pattern">绘制图案</string>
+    <string name="wrong_pattern">图案错误</string>
+    <string name="repeat_pattern">重复图案</string>
+    <string name="fingerprint">指纹</string>
+    <string name="add_fingerprint">添加指纹</string>
+    <string name="place_finger">请将手指放在指纹传感器上</string>
+    <string name="authentication_failed">验证失败</string>
+    <string name="authentication_blocked">验证已被阻止，请稍后再试</string>
+    <string name="no_fingerprints_registered">您还没有注册指纹，请先给你的设备添加一些指纹</string>
+    <string name="go_to_settings">去设置</string>
+    <string name="protection_setup_successfully">密码设置成功。如果你不慎遗忘了，请重新安装本应用。</string>
+    <string name="fingerprint_setup_successfully">指纹保护设置成功。如果出现问题，请重新安装本应用。</string>
+
+    <!-- Times -->
+    <string name="yesterday">昨天</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="seconds_raw">秒</string>
+    <string name="minutes_raw">分钟</string>
+    <string name="hours_raw">小时</string>
+    <string name="days_raw">天</string>
+
+    <plurals name="seconds">
+        <item quantity="one">%d 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d 分钟</item>
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d 小时</item>
+        <item quantity="other">%d 小时</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d 日</item>
+        <item quantity="other">%d 日</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d 周</item>
+        <item quantity="other">%d 周</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d 月</item>
+        <item quantity="other">%d 月</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d 年</item>
+        <item quantity="other">%d 年</item>
+    </plurals>
+
+    <!-- For example: I will be there in 5 minutes -->
+    <plurals name="in_seconds">
+        <item quantity="one">%d 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d 分钟</item>
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+    <plurals name="in_hours">
+        <item quantity="one">%d 小时</item>
+        <item quantity="other">%d 小时</item>
+    </plurals>
+
+    <!-- For example: Event reminder: 3 minutes before -->
+    <plurals name="seconds_before">
+        <item quantity="one">%d 秒前</item>
+        <item quantity="other">%d 秒前</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="one">%d 分钟前</item>
+        <item quantity="other">%d 分钟前</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="one">%d 小时前</item>
+        <item quantity="other">%d 小时前</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="one">%d 天前</item>
+        <item quantity="other">%d 天前</item>
+    </plurals>
+
+    <!-- For example: Postpone reminder by 3 minutes -->
+    <plurals name="by_seconds">
+        <item quantity="one">%d 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d 分钟</item>
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d 小时</item>
+        <item quantity="other">%d 小时</item>
+    </plurals>
+
+    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+    <string name="alarm_goes_off_in">距闹钟响起还有：\n%s</string>
+    <string name="reminder_triggers_in">距提醒触发还有：\n%s</string>
+    <string name="alarm_warning">在依赖它之前，请确保闹钟能够正常工作。由于系统与节电有关的限制，它有时可能会失灵。</string>
+    <string name="reminder_warning">在依赖它们之前，请确保提醒能够正常工作。由于系统与节电有关的限制，它们有时可能会失灵。</string>
+
+    <!-- Alarms -->
+    <string name="alarm">闹钟</string>
+    <string name="snooze">贪睡</string>
+    <string name="dismiss">关闭</string>
+    <string name="no_reminder">不再提醒</string>
+    <string name="at_start">开始时</string>
+    <string name="system_sounds">系统铃声</string>
+    <string name="your_sounds">你的铃声</string>
+    <string name="add_new_sound">添加新的铃声</string>
+    <string name="no_sound">无铃声</string>
+
+    <!-- Settings -->
+    <string name="settings">设置</string>
+    <string name="purchase_simple_thank_you">购买 Simple Thank You</string>
+    <string name="customize_colors">自定义颜色</string>
+    <string name="customize_widget_colors">自定义小部件颜色</string>
+    <string name="use_english_language">强制使用英语语言</string>
+    <string name="avoid_whats_new">启动时不再显示更新内容</string>
+    <string name="show_hidden_items">显示隐藏的项目</string>
+    <string name="font_size">字体大小</string>
+    <string name="small">小</string>
+    <string name="medium">中</string>
+    <string name="large">大</string>
+    <string name="extra_large">巨大</string>
+    <string name="password_protect_hidden_items">使用密码保护隐藏项</string>
+    <string name="password_protect_whole_app">使用密码保护本应用</string>
+    <string name="keep_last_modified">在复制/移动/重命名文件时保留旧的修改日期</string>
+    <string name="show_info_bubble">拖动滚动条时在滚动项目旁显示一个信息气泡</string>
+    <string name="prevent_phone_from_sleeping">阻止设备自动休眠</string>
+    <string name="skip_delete_confirmation">忽略删除确认对话框</string>
+    <string name="enable_pull_to_refresh">启用顶部上拉刷新</string>
+    <string name="use_24_hour_time_format">使用 24 小时制</string>
+    <string name="sunday_first">每周以周日开头</string>
+    <string name="widgets">小部件</string>
+    <string name="use_same_snooze">始终使用相同的贪睡时间</string>
+    <string name="snooze_time">贪睡时间</string>
+    <string name="vibrate_on_button_press">按下按键后震动</string>
+    <string name="move_items_into_recycle_bin">将项目转移到回收站而不是直接删除</string>
+    <string name="recycle_bin_cleaning_interval">回收站清理间隔</string>
+    <string name="empty_recycle_bin">清空回收站</string>
+    <string name="force_portrait_mode">强制人像模式</string>
+
+    <!-- Setting sections -->
+    <string name="visibility">可见度</string>
+    <string name="security">安全</string>
+    <string name="scrolling">滚动</string>
+    <string name="file_operations">文件操作</string>
+    <string name="recycle_bin">回收站</string>
+    <string name="saving_label">正在保存</string>
+    <string name="startup">启动</string>
+    <string name="text">文本</string>
+
+    <!-- Recycle Bin -->
+    <string name="restore_this_file">恢复此文件</string>
+    <string name="restore_selected_files">恢复选中的文件</string>
+    <string name="restore_all_files">恢复所有文件</string>
+    <string name="recycle_bin_emptied">清空回收站成功</string>
+    <string name="files_restored_successfully">恢复文件成功</string>
+    <string name="empty_recycle_bin_confirmation">您确定要清空回收站吗？这些文件将永久丢失。</string>
+    <string name="recycle_bin_empty">回收站是空的</string>
+
+    <!-- Import / Export -->
+    <string name="importing">正在导入…</string>
+    <string name="exporting">正在导出…</string>
+    <string name="importing_successful">导入成功</string>
+    <string name="exporting_successful">导出成功</string>
+    <string name="importing_failed">导入失败</string>
+    <string name="exporting_failed">导出失败</string>
+    <string name="importing_some_entries_failed">部分项目导入失败</string>
+    <string name="exporting_some_entries_failed">部分项目导出失败</string>
+    <string name="no_entries_for_exporting">未找到要导出的项目</string>
+
+    <!-- OTG devices -->
+    <string name="otg">OTG</string>
+    <string name="confirm_otg_storage_access_text">请在下一界面选择 OTG 设备的根文件夹以授予访问权限</string>
+    <string name="wrong_root_selected_otg">选择错误，请正确选择 OTG 设备的根文件夹</string>
+
+    <!-- Dates -->
+    <string name="january">一月</string>
+    <string name="february">二月</string>
+    <string name="march">三月</string>
+    <string name="april">四月</string>
+    <string name="may">五月</string>
+    <string name="june">六月</string>
+    <string name="july">七月</string>
+    <string name="august">八月</string>
+    <string name="september">九月</string>
+    <string name="october">十月</string>
+    <string name="november">十一月</string>
+    <string name="december">十二月</string>
+
+    <!-- in January -->
+    <string name="in_january">一月</string>
+    <string name="in_february">二月</string>
+    <string name="in_march">三月</string>
+    <string name="in_april">四月</string>
+    <string name="in_may">五月</string>
+    <string name="in_june">六月</string>
+    <string name="in_july">七月</string>
+    <string name="in_august">八月</string>
+    <string name="in_september">九月</string>
+    <string name="in_october">十月</string>
+    <string name="in_november">十一月</string>
+    <string name="in_december">十二月</string>
+
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+
+    <string name="monday_letter">一</string>
+    <string name="tuesday_letter">二</string>
+    <string name="wednesday_letter">三</string>
+    <string name="thursday_letter">四</string>
+    <string name="friday_letter">五</string>
+    <string name="saturday_letter">六</string>
+    <string name="sunday_letter">日</string>
+
+    <string name="monday_short">周一</string>
+    <string name="tuesday_short">周二</string>
+    <string name="wednesday_short">周三</string>
+    <string name="thursday_short">周四</string>
+    <string name="friday_short">周五</string>
+    <string name="saturday_short">周六</string>
+    <string name="sunday_short">周日</string>
+
+    <!-- About -->
+    <string name="about">关于</string>
+    <string name="website_label">应用源码</string>
+    <string name="email_label">发送反馈</string>
+    <string name="more_apps_underlined"><u>更多应用</u></string>
+    <string name="third_party_licences_underlined"><u>开放源代码</u></string>
+    <string name="invite_friends_underlined"><u>分享给好友</u></string>
+    <string name="share_text">请前往 %2$s 看看我们的 %1$s 吧！</string>
+    <string name="invite_via">分享到</string>
+    <string name="rate_us_underlined"><u>为我们打分</u></string>
+    <string name="donate">捐赠</string>
+    <string name="donate_underlined"><u>捐赠</u></string>
+    <string name="follow_us">关注我们</string>
+    <string name="copyright">v %1$s Copyright © Simple Mobile Tools %2$d</string>
+    <string name="additional_info">额外信息</string>
+    <string name="app_version">应用版本：%s</string>
+    <string name="device_os">设备系统：%s</string>
+    <string name="donate_please">
+        <![CDATA[
+            你好，<br><br>
+            希望你喜欢这个应用。它不包含广告，所以请购买<a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> 这个应用支持一下，这样此对话框将不再出现。<br><br>
+            非常感谢！
+        ]]>
+    </string>
+    <string name="purchase">购买</string>
+    <string name="update_thank_you">请更新 Simple Thank You 到最新版本</string>
+    <string name="before_asking_question_read_faq">提问前请先阅读常见问题列表，或许已经有回答。</string>
+    <string name="read_it">阅读</string>
+
+    <!-- New app (do not translate anything on the 4th line) -->
+    <string name="new_app">
+        <![CDATA[
+            嘿，<br><br>
+            最近发布了一个新的应用：<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            你可以点击标题来下载。<br><br>
+            谢谢。
+        ]]>
+    </string>
+
+    <!-- FAQ -->
+    <string name="frequently_asked_questions">常见问题</string>
+    <string name="before_asking_question">在提问之前，请先阅读</string>
+    <string name="faq_1_title_commons">为什么我在应用小部件列表里没有找到这个应用的小部件？</string>
+    <string name="faq_1_text_commons">这很可能是因为你将应用程序移动到了SD卡。由于 Android 系统的限制，在这种情况下会隐藏应用程序的小部件。 唯一的解决方法是在系统设置中将应用程序移回内部存储。</string>
+    <string name="faq_2_title_commons">我想支持你，但我不能捐赠金钱。 还有什么是我能够做的吗？</string>
+    <string name="faq_2_text_commons">当然有。你可以帮我宣传这个应用，或给个五星好评。你还可以为我的应用翻译新的语言来帮助你，或者是更新一些现有的翻译。你可以在 https://github.com/SimpleMobileTools/General-Discussion 找到该指南，如果你需要帮助，也可以发邮件 hello@simplemobiletools.com 给我。</string>
+    <string name="faq_3_title_commons">我该怎么恢复误删的文件？</string>
+    <string name="faq_3_text_commons">不幸的是，你无法恢复。在确认对话框后文件将被立即删除，你并没有回收站用。</string>
+    <string name="faq_4_title_commons">我不喜欢小部件的颜色，我可以修改吗？</string>
+    <string name="faq_4_text_commons">是可以的，当你在主屏幕上拖动小部件时，会出现小部件配置界面。你会在左下角看到彩色的方块，只需按下它们即可选择新的颜色。你还可以通过滑块来调整 Alpha 值。</string>
+    <string name="faq_5_title_commons">我可以恢复已删除的文件吗？</string>
+    <string name="faq_5_text_commons">如果你真的把它们删除了，那么你无法恢复。不过，您可以启用回收站，这样只会移动文件而不是直接删除。</string>
+
+    <!-- License -->
+    <string name="notice">此应用使用了以下三方库。谢谢。</string>
+    <string name="third_party_licences">开放源代码</string>
+    <string name="kotlin_title">Kotlin (编程语言)</string>
+    <string name="subsampling_title">Subsampling Scale Image View (可缩放视图)</string>
+    <string name="glide_title">Glide (图像加载和缓存)</string>
+    <string name="picasso_title">Picasso (图像加载和缓存)</string>
+    <string name="cropper_title">Android Image Cropper (图像裁剪和旋转)</string>
+    <string name="multiselect_title">RecyclerView MultiSelect (多列表项选择)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (从右向左滑动)</string>
+    <string name="joda_title">Joda-Time (Java日期替换)</string>
+    <string name="stetho_title">Stetho (调试数据库)</string>
+    <string name="otto_title">Otto (事件总线)</string>
+    <string name="photoview_title">PhotoView (可缩放 GIFs)</string>
+    <string name="pattern_title">PatternLockView (图案保护)</string>
+    <string name="reprint_title">Reprint (指纹保护)</string>
+    <string name="gif_drawable_title">Gif Drawable (加载 GIFs)</string>
+    <string name="autofittextview_title">AutoFitTextView (调整文本大小)</string>
+    <string name="robolectric_title">Robolectric (测试框架)</string>
+    <string name="espresso_title">Espresso (测试助手)</string>
+    <string name="gson_title">Gson (JSON 解析器)</string>
+    <string name="leak_canary_title">Leak Canary (内存泄漏监测器)</string>
+    <string name="number_picker_title">Number Picker (可定制的号码选择器)</string>
+    <string name="exoplayer_title">ExoPlayer (视频播放器)</string>
+    <string name="panorama_view_title">VR Panorama View (显示全景图)</string>
+    <string name="sanselan_title">Apache Sanselan (读取图像元数据)</string>
+    <string name="filters_title">Android Photo Filters (图像过滤器)</string>
+</resources>

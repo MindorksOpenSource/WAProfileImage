@@ -10,6 +10,8 @@ import com.mindorks.waprofileimage.customdialog.DialogCustomization
 import com.mindorks.waprofileimage.customdialog.ListHolder
 import com.mindorks.waprofileimage.customdialog.SimpleAdapter
 import com.mindorks.waprofileimage.customdialog.callback.*
+import com.mindorks.waprofileimage.waprofileImage.WAProfileImage.RESPONSE_CODE_OPEN_GALLERY
+import com.mindorks.waprofileimage.waprofileImage.WAProfileImage.RESPONSE_CODE_REMOVE_IMAGE
 import com.mindorks.waprofileimage.waprofileImage.camera.Common
 
 class WAPProfileImageActivityPresenter constructor(wAProfileImageView: WAProfileImageView, ctx: Context)
@@ -83,18 +85,18 @@ class WAPProfileImageActivityPresenter constructor(wAProfileImageView: WAProfile
         when (position) {
             -1 -> {
                 // TODO open Gallary and get the image path and set the new Result  Code
-                view!!.setNewResult(WAProfileImageActivity.RESPONSE_CODE_OPEN_GALLERY)
+                view!!.setNewResult(RESPONSE_CODE_OPEN_GALLERY)
                 Toast.makeText(context, "Open Gallery", Toast.LENGTH_SHORT).show()
 
             }
             0 -> {
-                view!!.setNewResult(WAProfileImageActivity.RESPONSE_CODE_OPEN_CAMERA)
+              //  view!!.setNewResult(WAProfileImageActivity.RESPONSE_CODE_OPEN_CAMERA)
                 showCameraView()
 
             }
             1 -> {
                 // TODO Remove the image and get image path
-                view!!.setNewResult(WAProfileImageActivity.RESPONSE_CODE_REMOVE_IMAGE)
+                view!!.setNewResult(RESPONSE_CODE_REMOVE_IMAGE)
                 Toast.makeText(context, "Remove Photo", Toast.LENGTH_SHORT).show()
 
             }

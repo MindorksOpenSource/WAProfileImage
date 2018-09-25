@@ -8,6 +8,8 @@ import android.view.MotionEvent
 import android.view.View
 import android.widget.Toast
 import com.mindorks.waprofileimage.R
+import com.mindorks.waprofileimage.waprofileImage.WAProfileImage.REQUEST_CODE_DEFAULT_VALUE
+import com.mindorks.waprofileimage.waprofileImage.WAProfileImage.REQUEST_CODE_KEY
 import com.mindorks.waprofileimage.waprofileImage.camera.CameraActivity
 
 class WAProfileImageActivity : AppCompatActivity(), WAProfileImageView {
@@ -16,14 +18,8 @@ class WAProfileImageActivity : AppCompatActivity(), WAProfileImageView {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
-    companion object {
-        val REQUEST_CODE_KEY = "requestCode"
-        val RESPONSE_CODE_REMOVE_IMAGE = 3
-        val RESPONSE_CODE_OPEN_CAMERA = 2
-        val RESPONSE_CODE_OPEN_GALLERY = 1
-    }
 
-    val REQUEST_CODE_DEFAULT_VALUE = 0
+
     private lateinit var presenter: WAPProfileImageActivityPresenter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,7 +58,7 @@ class WAProfileImageActivity : AppCompatActivity(), WAProfileImageView {
     }
 
     override fun onViewFinished() {
-        // finish()
+      //   finish()
     }
 
     override fun launch(context: FragmentActivity, requestCode: Int) {

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.simplemobiletools.commons">
+
+    <!-- Samsung fingerprint permission, only required if you include the Spass module -->
+
+    <application
+
+        >
+        <receiver
+            android:name=".receivers.SharedThemeReceiver"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.simplemobiletools.commons.SHARED_THEME_ACTIVATED"/>
+                <action android:name="com.simplemobiletools.commons.SHARED_THEME_UPDATED"/>
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+</manifest>
