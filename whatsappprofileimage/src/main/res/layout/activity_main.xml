@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <SurfaceView
+        android:id="@+id/camera_surface_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.simplemobiletools.camera.views.AutoFitTextureView
+        android:id="@+id/camera_texture_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/normal_margin"
+        android:src="@drawable/ic_settings_cog"/>
+
+    <ImageView
+        android:id="@+id/toggle_photo_video"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/settings"
+        android:padding="@dimen/normal_margin"
+        android:src="@drawable/ic_video"/>
+
+    <ImageView
+        android:id="@+id/change_resolution"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toggle_photo_video"
+        android:padding="@dimen/normal_margin"
+        android:src="@drawable/ic_resolution"/>
+
+    <ImageView
+        android:id="@+id/last_photo_video_preview"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/change_resolution"
+        android:padding="@dimen/medium_margin"/>
+
+    <LinearLayout
+        android:id="@+id/btn_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|bottom">
+
+        <ImageView
+            android:id="@+id/toggle_camera"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_weight="1"
+            android:padding="@dimen/normal_margin"
+            android:src="@drawable/ic_camera_front"/>
+
+        <ImageView
+            android:id="@+id/shutter"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_weight="1"
+            android:src="@drawable/ic_shutter"/>
+
+        <ImageView
+            android:id="@+id/toggle_flash"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_weight="1"
+            android:padding="@dimen/normal_margin"
+            android:src="@drawable/ic_flash_off"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/video_rec_curr_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_holder"
+        android:layout_centerHorizontal="true"
+        android:text="00:00"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+
+</RelativeLayout>

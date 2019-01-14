@@ -1,3 +1,70 @@
-<resources>
-    <string name="app_name">whatsappprofileimage</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">whatsappprofileimage</string>
+    <string name="gallery_title" translatable="false">Gallery</string>
+    <string name="camera_title" translatable="false">Camera</string>
+    <string name="remove_photo_title" translatable="false">Remove Photo</string>
+    <string name="header_title" translatable="false">Profile photo</string>
+    <string name="header_sample" translatable="false">SAMPLE HEADER</string>
+    <string name="no_camera_error_message" translatable="false" tools:ignore="MissingTranslation">No Camera Supported For This Device </string>
+    <string name="picture" translatable="false">Picture</string>
+    <string name="request_permission" translatable="false">This sample needs camera permission.</string>
+    <string name="camera_error" translatable="false">This device doesn\'t support Camera2 API.</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_activity_splash" translatable="false">SplashActivity</string>
+
+
+
+
+
+    <string name="app_launcher_name">Camera</string>
+    <string name="camera_unavailable">Camera unavailable</string>
+    <string name="camera_open_error">An error occurred accessing the camera</string>
+    <string name="video_creating_error">An error occurred creating the video file</string>
+    <string name="video_mode_error">Switching to video mode failed</string>
+    <string name="save_error_internal_storage">An error occurred, save folder changed to internal storage</string>
+    <string name="camera_switch_error">Switching camera failed</string>
+    <string name="click_to_resume_preview">Click on the image to resume preview</string>
+    <string name="photo_not_saved">The photo could not be saved</string>
+    <string name="setting_resolution_failed">Setting proper resolution failed</string>
+    <string name="video_recording_failed">Video recording failed, try using a different resolution</string>
+
+    <!-- Other aspect ratio -->
+    <string name="other">other</string>
+
+    <!-- FAQ -->
+    <string name="faq_1_title">What photo compression quality should I set?</string>
+    <string name="faq_1_text">It depends on your goal. For generic purposes most people advise using 75%-80%, when the image is still really good quality, but the file size is reduced drastically compared to 100%.</string>
+
+    <!-- Settings -->
+    <string name="save_photos">Save photos and videos to</string>
+    <string name="show_preview">Show a photo preview after capturing</string>
+    <string name="shutter_sound">Shutter sound</string>
+    <string name="back_camera">Back camera resolutions</string>
+    <string name="front_camera">Front camera resolutions</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="focus_before_capture">Focus before capture</string>
+    <string name="volume_buttons_as_shutter">Use volume buttons as shutter</string>
+    <string name="turn_flash_off_at_startup">Turn flash off at startup</string>
+    <string name="flip_front_camera_photos_horizontally">Flip front camera photos horizontally</string>
+    <string name="keep_settings_visible">Keep the setting buttons visible</string>
+    <string name="always_open_back_camera">Always open the app with the Back camera</string>
+    <string name="save_photo_metadata">Save photo exif metadata</string>
+    <string name="photo_compression_quality">Photo compression quality</string>
+    <string name="shutter">Shutter</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">A camera with flash, zoom and no ads.</string>
+    <string name="app_long_description">
+        The camera is usable for both photo taking and video recording. You can switch between front and rear camera, modify the save path and limit the resolution. The flash can be turned on and off or used as a flashlight. You can pinch to zoom in and out.
+
+        If you want to launch this app at pressing the hardware camera button, you might have to disable the built in Camera app in Settings -> Apps -> Camera -> Disable.
+
+        Contains no ads or unnecessary permissions. It is fully opensource, provides customizable colors.
+
+        This app is just one piece of a bigger series of apps. You can find the rest of them at https://www.simplemobiletools.com
+    </string>
+
+
 </resources>

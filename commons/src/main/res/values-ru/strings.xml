@@ -1,0 +1,591 @@
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="save_as">Сохранить как</string>
+    <string name="file_saved">Файл сохранён</string>
+    <string name="invalid_file_format">Недопустимый формат файла</string>
+    <string name="out_of_memory_error">Память переполнена</string>
+    <string name="an_error_occurred">Произошла ошибка: %s</string>
+    <string name="open_with">Открыть в…</string>
+    <string name="no_app_found">Приложение не найдено</string>
+    <string name="set_as">Установить как…</string>
+    <string name="value_copied_to_clipboard">Значение скопировано в буфер обмена</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="always">Всегда</string>
+    <string name="never">Никогда</string>
+    <string name="details">Подробности</string>
+    <string name="notes">Заметки</string>
+    <string name="deleting_folder">Удаление папки \"%s\"</string>
+    <string name="none">Нет</string>
+    <string name="label">Метка</string>
+
+    <!-- Favorites -->
+    <string name="favorites">Избранное</string>
+    <string name="add_favorites">Добавить избранное</string>
+    <string name="add_to_favorites">Добавить в избранное</string>
+    <string name="remove_from_favorites">Убрать из избранного</string>
+
+    <!-- Search -->
+    <string name="search">Поиск</string>
+    <string name="type_2_characters">Введите как минимум 2 символа для начала поиска.</string>
+
+    <!-- Filters -->
+    <string name="filter">Фильтрация</string>
+    <string name="no_items_found">Ничего не найдено.</string>
+    <string name="change_filter">Изменить фильтрацию</string>
+
+    <!-- Permissions -->
+    <string name="no_storage_permissions">Требуется разрешение для доступа к хранилищу</string>
+    <string name="no_contacts_permission">Требуется разрешение для доступа к контактам</string>
+    <string name="no_camera_permissions">Требуется разрешение для доступа к камере</string>
+    <string name="no_audio_permissions">Требуется разрешение для доступа аудиосистеме</string>
+
+    <!-- Renaming -->
+    <string name="rename_file">Изменение имени файла</string>
+    <string name="rename_folder">Изменение имени папки</string>
+    <string name="rename_file_error">Не удалось переименовать файл</string>
+    <string name="rename_folder_error">Не удалось переименовать папку</string>
+    <string name="rename_folder_empty">Имя папки не должно быть пустым</string>
+    <string name="rename_folder_exists">Папка с таким именем уже существует</string>
+    <string name="rename_folder_root">Нельзя переименовать корневую папку</string>
+    <string name="rename_folder_ok">Папка переименована</string>
+    <string name="renaming_folder">Изменение имени папки</string>
+    <string name="filename_cannot_be_empty">Имя файла не может быть пустым</string>
+    <string name="filename_invalid_characters">Имя файла содержит недопустимые символы</string>
+    <string name="filename_invalid_characters_placeholder">Имя файла \"%s\" содержит недопустимые символы</string>
+    <string name="extension_cannot_be_empty">Расширение не может быть пустым</string>
+    <string name="source_file_doesnt_exist">Исходный файл \"%s\" не существует</string>
+
+    <!-- Copy / Move -->
+    <string name="copy">Копировать</string>
+    <string name="move">Переместить</string>
+    <string name="copy_move">Копировать/переместить</string>
+    <string name="copy_to">Копировать в…</string>
+    <string name="move_to">Переместить в…</string>
+    <string name="source">Путь источника</string>
+    <string name="destination">Путь назначения</string>
+    <string name="select_destination">Выберите путь назначения</string>
+    <string name="click_select_destination">Нажмите здесь, чтобы выбрать расположение</string>
+    <string name="invalid_destination">Не удалось записать в выбранное расположение</string>
+    <string name="please_select_destination">Пожалуйста, выберите путь назначения</string>
+    <string name="source_and_destination_same">Исходный и конечный пути не могут совпадать</string>
+    <string name="copy_failed">Не удалось скопировать файлы</string>
+    <string name="copying">Копирование…</string>
+    <string name="copying_success">Файлы скопированы</string>
+    <string name="copy_move_failed">Произошла ошибка</string>
+    <string name="moving">Перемещение…</string>
+    <string name="moving_success">Файлы перемещены</string>
+    <string name="moving_success_partial">Некоторые файлы не могут быть перемещены</string>
+    <string name="copying_success_partial">Некоторые файлы не могут быть скопированы</string>
+    <string name="no_files_selected">Файлы не выбраны</string>
+    <string name="saving">Сохранение…</string>
+    <string name="could_not_create_folder">Не удалось создать папку \"%s\"</string>
+    <string name="could_not_create_file">Не удалось создать файл \"%s\"</string>
+
+    <!-- Create new -->
+    <string name="create_new">Создать</string>
+    <string name="folder">Папка</string>
+    <string name="file">Файл</string>
+    <string name="create_new_folder">Новая папка</string>
+    <string name="name_taken">Папка или файл с таким именем уже существует</string>
+    <string name="invalid_name">Имя содержит недопустимые символы</string>
+    <string name="empty_name">Пожалуйста, введите имя</string>
+    <string name="unknown_error_occurred">Произошла неизвестная ошибка</string>
+
+    <!-- File operation conflicts -->
+    <string name="file_already_exists">Файл \"%s\" уже существует</string>
+    <string name="file_already_exists_overwrite">Файл \"%s\" уже существует. Перезаписать?</string>
+    <string name="folder_already_exists">Папка \"%s\" уже существует</string>
+    <string name="merge">Объединить</string>
+    <string name="overwrite">Перезаписать</string>
+    <string name="skip">Пропустить</string>
+    <string name="append">Добавить \"_1\" к имени</string>
+    <string name="apply_to_all">Применить ко всем конфликтам</string>
+
+    <!-- File picker -->
+    <string name="select_folder">Выбор папки</string>
+    <string name="select_file">Выбор файла</string>
+    <string name="confirm_storage_access_title">Предоставление доступа к внешнему накопителю</string>
+    <string name="confirm_storage_access_text">Чтобы предоставить право на запись, пожалуйста, выберите корневую папку SD-карты на следующем шаге</string>
+    <string name="confirm_storage_access_text_sd">Если вы не видите SD-карту, попробуйте это</string>
+    <string name="confirm_selection">Подтвердить выделение</string>
+
+    <plurals name="items">
+        <item quantity="one">%d объект</item>
+        <item quantity="few">%d объекта</item>
+        <item quantity="many">%d объектов</item>
+    </plurals>
+
+    <!-- Are you sure you want to delete 5 items? -->
+    <plurals name="delete_items">
+        <item quantity="one">%d объект</item>
+        <item quantity="few">%d объекта</item>
+        <item quantity="other">%d объектов</item>
+    </plurals>
+
+    <plurals name="deleting_items">
+        <item quantity="one">Удаление %d объекта</item>
+        <item quantity="few">Удаление %d объектов</item>
+        <item quantity="other">Удаление %d объектов</item>
+    </plurals>
+
+    <!-- Storages -->
+    <string name="select_storage">Выбрать хранилище</string>
+    <string name="internal">Внутренняя память</string>
+    <string name="sd_card">SD-карта</string>
+    <string name="root">Корневая папка</string>
+    <string name="wrong_root_selected">Папка выбрана неверно, пожалуйста, выберите SD-карту</string>
+    <string name="sd_card_otg_same">Пути к SD-карте и OTG-устройству не могут быть одинаковыми</string>
+    <string name="app_on_sd_card">Похоже, что приложение у вас установлено на SD-карту, а это делает виджеты приложений недоступными. Вы даже не увидите их в списке доступных виджетов.
+        Это системное ограничение, поэтому, если вы хотите использовать виджеты, вам нужно переместить приложение обратно во внутреннюю память.</string>
+
+    <!-- File properties -->
+    <string name="properties">Свойства</string>
+    <string name="path">Расположение</string>
+    <string name="items_selected">Выбрано элементов</string>
+    <string name="direct_children_count">Дочерних элементов</string>
+    <string name="files_count">Всего файлов внутри</string>
+    <string name="resolution">Разрешение</string>
+    <string name="duration">Длительность</string>
+    <string name="artist">Исполнитель</string>
+    <string name="album">Альбом</string>
+    <string name="focal_length">Фокусное расстояние</string>
+    <string name="exposure_time">Выдержка</string>
+    <string name="iso_speed">Светочувствительность (ISO)</string>
+    <string name="f_number">Относительное отверстие</string>
+    <string name="camera">Камера</string>
+    <string name="exif">EXIF</string>
+    <string name="song_title">Название песни</string>
+
+    <!-- Color customization -->
+    <string name="background_color">Цвет фона</string>
+    <string name="text_color">Цвет текста</string>
+    <string name="primary_color">Основной цвет</string>
+    <string name="foreground_color">Цвет переднего плана</string>
+    <string name="app_icon_color">Цвет значка приложения</string>
+    <string name="restore_defaults">Сбросить к стандартным</string>
+    <string name="change_color">Изменить цвет</string>
+    <string name="theme">Тема</string>
+    <string name="changing_color_description">Изменение цвета повлечёт переключение на пользовательскую тему.</string>
+    <string name="save">Сохранить</string>
+    <string name="discard">Сбросить</string>
+    <string name="undo_changes">Отменить изменения</string>
+    <string name="undo_changes_confirmation">Действительно отменить изменения?</string>
+    <string name="save_before_closing">У вас есть несохранённые изменения. Сохранить перед выходом?</string>
+    <string name="apply_to_all_apps">Применить цвета ко всем приложениям Simple</string>
+    <string name="share_colors_success">Цвета обновлены. Добавлена новая тема с названием \"Общая\", в дальнейшем используйте её для обновления цветов всех приложений.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Пожалуйста, купите <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, чтобы разблокировать эту функцию и поддержать разработку. Спасибо!
+        ]]>
+    </string>
+
+    <!-- Themes -->
+    <string name="light_theme">Светлая</string>
+    <string name="dark_theme">Тёмная</string>
+    <string name="solarized">Солнечная</string>
+    <string name="dark_red">Тёмно-красная</string>
+    <string name="black_white">Чёрно-белая</string>
+    <string name="custom">Своя</string>
+    <string name="shared">Общая</string>
+
+    <!-- What's new -->
+    <string name="whats_new">Что нового</string>
+    <string name="whats_new_disclaimer">* здесь представлены только значительные изменения, но всегда присутствуют и мелкие исправления</string>
+
+    <!-- Actionbar items -->
+    <string name="delete">Удалить</string>
+    <string name="remove">Убрать</string>
+    <string name="rename">Переименовать</string>
+    <string name="share">Поделиться</string>
+    <string name="share_via">Отправить через</string>
+    <string name="select_all">Выделить все</string>
+    <string name="hide">Скрыть</string>
+    <string name="unhide">Показать</string>
+    <string name="hide_folder">Скрыть папку</string>
+    <string name="unhide_folder">Показать папку</string>
+    <string name="temporarily_show_hidden">Временный показ скрытых</string>
+    <string name="stop_showing_hidden">Не показывать скрытые медиа</string>
+    <string name="maximum_share_reached">Слишком большой объём данных, чтобы делиться им</string>
+    <string name="empty_and_disable_recycle_bin">Очистить и отключить корзину</string>
+    <string name="undo">Отменить</string>
+    <string name="redo">Повторить</string>
+
+    <!-- Sorting -->
+    <string name="sort_by">Сортировать по…</string>
+    <string name="name">Имя</string>
+    <string name="size">Размер</string>
+    <string name="last_modified">Время изменения</string>
+    <string name="date_taken">Время создания</string>
+    <string name="title">Название</string>
+    <string name="filename">Имя файла</string>
+    <string name="extension">Расширение</string>
+    <string name="ascending">По возрастанию</string>
+    <string name="descending">По убыванию</string>
+    <string name="use_for_this_folder">Использовать только для этой папки</string>
+
+    <!-- Confirmation dialog -->
+    <string name="proceed_with_deletion">Подтверждение удаления</string>
+    <string name="deletion_confirmation">Вы действительно хотите удалить %s?</string>    <!-- Are you sure you want to delete 5 items? -->
+    <string name="move_to_recycle_bin_confirmation">Вы действительно хотите переместить %s в корзину?</string>    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="are_you_sure_delete">Вы действительно хотите удалить этот объект?</string>
+    <string name="are_you_sure_recycle_bin">Вы действительно хотите переместить этот объект в корзину?</string>
+    <string name="do_not_ask_again">Не спрашивать снова (до следующего запуска)</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <plurals name="delete_warning">
+        <item quantity="one">ПРЕДУПРЕЖДЕНИЕ: вы удаляете папку</item>
+        <item quantity="few">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папки</item>
+        <item quantity="many">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папок</item>
+        <item quantity="other">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папок</item>
+    </plurals>
+
+    <!-- Password protection -->
+    <string name="pin">PIN-код</string>
+    <string name="enter_pin">Введите PIN-код</string>
+    <string name="please_enter_pin">Введите PIN-код</string>
+    <string name="wrong_pin">Неверный PIN-код</string>
+    <string name="repeat_pin">Повторите PIN-код</string>
+    <string name="pattern">Графический ключ</string>
+    <string name="insert_pattern">Установите ключ</string>
+    <string name="wrong_pattern">Неправильный графический ключ</string>
+    <string name="repeat_pattern">Повторите ключ</string>
+    <string name="fingerprint">Отпечаток пальца</string>
+    <string name="add_fingerprint">Добавить отпечаток</string>
+    <string name="place_finger">Пожалуйста, поместите палец на датчик отпечатков.</string>
+    <string name="authentication_failed">Ошибка аутентификации</string>
+    <string name="authentication_blocked">Аутентификация заблокирована, повторите попытку через некоторое время</string>
+    <string name="no_fingerprints_registered">У вас нет зарегистрированных отпечатков пальцев, добавьте их в настройках вашего устройства</string>
+    <string name="go_to_settings">Перейдите в настройки</string>
+    <string name="protection_setup_successfully">Пароль установлен. Пожалуйста, переустановите приложение в случае, если вы его забудете.</string>
+    <string name="fingerprint_setup_successfully">Установка защиты выполнена успешно. Переустановите приложение в случае возникновения проблем с её отключением.</string>
+
+    <!-- Times -->
+    <string name="yesterday">Вчера</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="seconds_raw">секунд</string>
+    <string name="minutes_raw">минут</string>
+    <string name="hours_raw">часов</string>
+    <string name="days_raw">дней</string>
+
+    <plurals name="seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня(-ей)</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d неделя</item>
+        <item quantity="few">%d недели</item>
+        <item quantity="many">%d недель</item>
+        <item quantity="other">%d недели(-ль)</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d месяц</item>
+        <item quantity="few">%d месяца</item>
+        <item quantity="many">%d месяцев</item>
+        <item quantity="other">%d месяца(-ев)</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+        <item quantity="other">%d года(лет)</item>
+    </plurals>
+
+    <!-- For example: I will be there in 5 minutes -->
+    <plurals name="in_seconds">
+        <item quantity="one">%d секунду</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d минуту</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <plurals name="in_hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="other">%d часов</item>
+    </plurals>
+
+    <!-- For example: Event reminder: 3 minutes before -->
+    <plurals name="seconds_before">
+        <item quantity="one">%d секунда до события</item>
+        <item quantity="few">%d секунды до события</item>
+        <item quantity="many">%d секунд до события</item>
+        <item quantity="other">%d секунд(-ы) до события</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="one">%d минута до события</item>
+        <item quantity="few">%d минуты до события</item>
+        <item quantity="many">%d минут до события</item>
+        <item quantity="other">%d минут(-ы) до события</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="one">%d час до события</item>
+        <item quantity="few">%d часа до события</item>
+        <item quantity="many">%d часов до события</item>
+        <item quantity="other">%d часа(-ов) до события</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="one">%d день до события</item>
+        <item quantity="few">%d дня до события</item>
+        <item quantity="many">%d дней до события</item>
+        <item quantity="other">%d дня(-ей) до события</item>
+    </plurals>
+
+    <!-- For example: Postpone reminder by 3 minutes -->
+    <plurals name="by_seconds">
+        <item quantity="one">%d секунду</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d минуту</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+
+    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+    <string name="alarm_goes_off_in">Время, оставшееся до срабатывания будильника:\n%s</string>
+    <string name="reminder_triggers_in">Время, оставшееся до срабатывания напоминания:\n%s</string>
+    <string name="alarm_warning">Пожалуйста, убедитесь, что будильник работает правильно, прежде чем полагаться на него. Он может не работать должным образом из-за системных ограничений, связанных с экономией батареи.</string>
+    <string name="reminder_warning">Пожалуйста, убедитесь, что напоминания работают правильно, прежде чем полагаться на них. Они могут не работать должным образом из-за системных ограничений, связанных с экономией батареи.</string>
+
+    <!-- Alarms -->
+    <string name="alarm">Будильник</string>
+    <string name="snooze">Отложить</string>
+    <string name="dismiss">Закрыть</string>
+    <string name="no_reminder">Без напоминания</string>
+    <string name="at_start">С наступлением события</string>
+    <string name="system_sounds">Системные звуки</string>
+    <string name="your_sounds">Свои звуки</string>
+    <string name="add_new_sound">Добавить новый звук</string>
+    <string name="no_sound">Без звука</string>
+
+    <!-- Settings -->
+    <string name="settings">Настройки</string>
+    <string name="purchase_simple_thank_you">Купить Simple Thank You</string>
+    <string name="customize_colors">Настроить цвета</string>
+    <string name="customize_widget_colors">Настроить цвета виджета</string>
+    <string name="use_english_language">Use English language</string>
+    <string name="avoid_whats_new">Не показывать \"Что нового\" при запуске</string>
+    <string name="show_hidden_items">Показывать скрытые папки</string>
+    <string name="font_size">Размер шрифта</string>
+    <string name="small">Мелкий</string>
+    <string name="medium">Нормальный</string>
+    <string name="large">Крупный</string>
+    <string name="extra_large">Очень крупный</string>
+    <string name="password_protect_hidden_items">Защита паролем отображения скрытых объектов</string>
+    <string name="password_protect_whole_app">Защита паролем всего приложения</string>
+    <string name="keep_last_modified">Сохранять дату изменения файла при копировании/перемещении/переименовании</string>
+    <string name="show_info_bubble">Показывать информационное окно при прокрутке элементов перетаскиванием полосы прокрутки</string>
+    <string name="prevent_phone_from_sleeping">Предотвращать засыпание устройства, пока приложение находится на переднем плане</string>
+    <string name="skip_delete_confirmation">Пропускать диалог подтверждения удаления</string>
+    <string name="enable_pull_to_refresh">Использовать \"потянуть-для-обновления\" в верхней части экрана</string>
+    <string name="use_24_hour_time_format">Использовать 24-часовой формат времени</string>
+    <string name="sunday_first">Воскресенье — начало недели</string>
+    <string name="widgets">Виджеты</string>
+    <string name="use_same_snooze">Всегда использовать один и тот же интервал повтора</string>
+    <string name="snooze_time">Интервал повтора</string>
+    <string name="vibrate_on_button_press">Вибрация при нажатии кнопок</string>
+    <string name="move_items_into_recycle_bin">Перемещать объекты в корзину вместо удаления</string>
+    <string name="recycle_bin_cleaning_interval">Интервал очистки корзины</string>
+    <string name="empty_recycle_bin">Очистить корзину</string>
+    <string name="force_portrait_mode">Принудительный портретный режим</string>
+
+    <!-- Setting sections -->
+    <string name="visibility">Отображение</string>
+    <string name="security">Безопасность</string>
+    <string name="scrolling">Прокрутка</string>
+    <string name="file_operations">Файловые операции</string>
+    <string name="recycle_bin">Корзина</string>
+    <string name="saving_label">Сохранение</string>
+    <string name="startup">Запуск</string>
+    <string name="text">Текст</string>
+
+    <!-- Recycle Bin -->
+    <string name="restore_this_file">Восстановить этот файл</string>
+    <string name="restore_selected_files">Восстановить выбранные файлы</string>
+    <string name="restore_all_files">Восстановить все файлы</string>
+    <string name="recycle_bin_emptied">Корзина очищена</string>
+    <string name="files_restored_successfully">Файлы восстановлены</string>
+    <string name="empty_recycle_bin_confirmation">Вы действительно хотите очистить корзину? Файлы будут удалены безвозвратно.</string>
+    <string name="recycle_bin_empty">Корзина пуста</string>
+
+    <!-- Import / Export -->
+    <string name="importing">Импорт…</string>
+    <string name="exporting">Экспорт…</string>
+    <string name="importing_successful">Импортирование выполнено успешно</string>
+    <string name="exporting_successful">Экспортирование выполнено успешно</string>
+    <string name="importing_failed">Импортирование завершилось неудачей</string>
+    <string name="exporting_failed">Экспортирование завершилось неудачей</string>
+    <string name="importing_some_entries_failed">Импортирование некоторых элементов завершилось неудачей</string>
+    <string name="exporting_some_entries_failed">Экспортирование некоторых элементов завершилось неудачей</string>
+    <string name="no_entries_for_exporting">Нет элементов для экспортирования</string>
+
+    <!-- OTG devices -->
+    <string name="otg">OTG</string>
+    <string name="confirm_otg_storage_access_text">Пожалуйста, выберите корневую папку OTG-устройства на следующем экране, чтобы предоставить к нему доступ.</string>
+    <string name="wrong_root_selected_otg">Выбрана неправильная папка. Выберите корневую папку вашего OTG-устройства.</string>
+
+    <!-- Dates -->
+    <string name="january">Январь</string>
+    <string name="february">Февраль</string>
+    <string name="march">Март</string>
+    <string name="april">Апрель</string>
+    <string name="may">Май</string>
+    <string name="june">Июнь</string>
+    <string name="july">Июль</string>
+    <string name="august">Август</string>
+    <string name="september">Сентябрь</string>
+    <string name="october">Октябрь</string>
+    <string name="november">Ноябрь</string>
+    <string name="december">Декабрь</string>
+
+    <!-- in January -->
+    <string name="in_january">в январе</string>
+    <string name="in_february">в феврале</string>
+    <string name="in_march">в марте</string>
+    <string name="in_april">в апреле</string>
+    <string name="in_may">в мае</string>
+    <string name="in_june">в июне</string>
+    <string name="in_july">в июле</string>
+    <string name="in_august">в августе</string>
+    <string name="in_september">в сентябре</string>
+    <string name="in_october">в октябре</string>
+    <string name="in_november">в ноябре</string>
+    <string name="in_december">в декабре</string>
+
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+
+    <string name="monday_letter">Пн</string>
+    <string name="tuesday_letter">Вт</string>
+    <string name="wednesday_letter">Ср</string>
+    <string name="thursday_letter">Чт</string>
+    <string name="friday_letter">Пт</string>
+    <string name="saturday_letter">Сб</string>
+    <string name="sunday_letter">Вс</string>
+
+    <string name="monday_short">пн</string>
+    <string name="tuesday_short">вт</string>
+    <string name="wednesday_short">ср</string>
+    <string name="thursday_short">чт</string>
+    <string name="friday_short">пт</string>
+    <string name="saturday_short">сб</string>
+    <string name="sunday_short">вс</string>
+
+    <!-- About -->
+    <string name="about">О приложении</string>
+    <string name="website_label">Исходный код можно найти по адресу</string>
+    <string name="email_label">Отправить отзывы или предложения</string>
+    <string name="more_apps_underlined"><u>Больше простых приложений</u></string>
+    <string name="third_party_licences_underlined"><u>Лицензии третьих сторон</u></string>
+    <string name="invite_friends_underlined"><u>Предложить другу</u></string>
+    <string name="share_text">Попробуй %1$s по ссылке %2$s</string>
+    <string name="invite_via">Предложить с помощью</string>
+    <string name="rate_us_underlined"><u>Оценить нас в Google Play</u></string>
+    <string name="donate">Поддержать разработчика</string>
+    <string name="donate_underlined"><u>Поддержать разработчика</u></string>
+    <string name="follow_us">Подписаться на нас</string>
+    <string name="copyright">v %1$s\nАвторские права © Simple Mobile Tools %2$d</string>
+    <string name="additional_info">Дополнительная информация</string>
+    <string name="app_version">Версия приложения: %s</string>
+    <string name="device_os">ОС устройства: %s</string>
+    <string name="donate_please">
+        <![CDATA[
+            Привет,<br><br>
+            надеюсь, вам нравится приложение. Оно не содержит рекламы, поэтому, пожалуйста, поддержите разработку, купив приложение <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>. Покупка также предотвратит повторное появление данного диалогового окна.<br><br>
+            Спасибо!
+        ]]>
+    </string>
+    <string name="purchase">Купить</string>
+    <string name="update_thank_you">Пожалуйста, обновите \"Simple Thank You\" до последней версии.</string>
+    <string name="before_asking_question_read_faq">Прежде чем задать вопрос, пожалуйста, прочтите ответы на часто задаваемые вопросы (FAQ), возможно, решение уже есть.</string>
+    <string name="read_it">Прочитать</string>
+
+    <!-- New app (do not translate anything on the 4th line) -->
+    <string name="new_app">
+        <![CDATA[
+            Привет,<br><br>
+            просто сообщаю, что недавно было выпущено новое приложение:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            Вы можете скачать его, нажав на заголовок.<br><br>
+            Спасибо
+        ]]>
+    </string>
+
+    <!-- FAQ -->
+    <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
+    <string name="before_asking_question">Перед тем как задать вопрос, пожалуйста, сначала прочитайте</string>
+    <string name="faq_1_title_commons">Почему я не вижу виджет этого приложения в списке виджетов?</string>
+    <string name="faq_1_text_commons">Это, скорее всего, потому, что вы перенесли приложение на SD-карту. Существует ограничение системы Android, которое скрывает виджеты приложения
+        в этом случае. Единственное решение — переместить приложение обратно во внутреннее хранилище через настройки вашего устройства.</string>
+    <string name="faq_2_title_commons">Я хочу поддержать вас, но могу пожертвовать деньги. Есть ли что-нибудь ещё, что я могу сделать?</string>
+    <string name="faq_2_text_commons">Да, конечно. Вы можете распространять информацию о приложениях или давать хорошие отзывы и оценки. Также вы можете помочь, переведя приложения на новый язык или просто обновив существующие переводы.
+        Руководство можно найти по адресу https://github.com/SimpleMobileTools/General-Discussion или просто написать мне короткое сообщение на hello@simplemobiletools.com , если вам нужна помощь.</string>
+    <string name="faq_3_title_commons">Я по ошибке удалил некоторые файлы, как их восстановить?</string>
+    <string name="faq_3_text_commons">К сожалению, вы не сможете. Файлы удаляются сразу после диалога подтверждения, функции вроде \"корзины\" не предусмотрено.</string>
+    <string name="faq_4_title_commons">Мне не нравятся цвета виджета, я могу их изменить?</string>
+    <string name="faq_4_text_commons">Да, при перетаскивании виджета на главный экран появляется панель его настройки. На ней вы увидите цветные квадраты в левом нижнем углу, просто нажмите их, чтобы выбрать новый цвет. Также можно использовать ползунок для настройки прозрачности.</string>
+    <string name="faq_5_title_commons">Могу я как-то восстановить удалённые файлы?</string>
+    <string name="faq_5_text_commons">Если они были действительно удалены, то не можете. Однако можно включить использование корзины вместо удаления в настройках приложения. Тогда файлы будут просто перемещаться в неё, а не удаляться.</string>
+
+    <!-- License -->
+    <string name="notice">Это приложение использует следующие библиотеки сторонних разработчиков, чтобы облегчить мой труд. Спасибо.</string>
+    <string name="third_party_licences">Лицензии третьих сторон</string>
+    <string name="kotlin_title">Kotlin (язык программирования)</string>
+    <string name="subsampling_title">Subsampling Scale Image View (возможность масштабирования изображений)</string>
+    <string name="glide_title">Glide (загрузка и кэширование изображений)</string>
+    <string name="picasso_title">Picasso (загрузка и кэширование изображений)</string>
+    <string name="cropper_title">Android Image Cropper (обрезка и поворот изображений)</string>
+    <string name="multiselect_title">RecyclerView MultiSelect (выбор нескольких элементов списка)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (отображение с RTL-языками)</string>
+    <string name="joda_title">Joda-Time (замена даты Java)</string>
+    <string name="stetho_title">Stetho (отладка баз данных)</string>
+    <string name="otto_title">Otto (шина событий)</string>
+    <string name="photoview_title">PhotoView (масштабирование GIF)</string>
+    <string name="pattern_title">PatternLockView (защита графическим ключом)</string>
+    <string name="reprint_title">Reprint (защита по отпечатку пальца)</string>
+    <string name="gif_drawable_title">Gif Drawable (загрузка GIFов)</string>
+    <string name="autofittextview_title">AutoFitTextView (масштабирование текста)</string>
+    <string name="robolectric_title">Robolectric (фреймворк для тестирования)</string>
+    <string name="espresso_title">Espresso (помощник по тестированию)</string>
+    <string name="gson_title">Gson (анализатор JSON)</string>
+    <string name="leak_canary_title">Leak Canary (детектор утечек памяти)</string>
+    <string name="number_picker_title">Number Picker (настраиваемый ввод чисел)</string>
+    <string name="exoplayer_title">ExoPlayer (видеопроигрыватель)</string>
+    <string name="panorama_view_title">VR Panorama View (отображение панорам)</string>
+    <string name="sanselan_title">Apache Sanselan (чтение метаданных изображений)</string>
+    <string name="filters_title">Android Photo Filters (фильтры изображений)</string>
+</resources>

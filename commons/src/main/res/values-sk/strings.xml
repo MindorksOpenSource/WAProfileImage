@@ -1,0 +1,582 @@
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="save_as">Uložiť ako</string>
+    <string name="file_saved">Súbor bol úspešne uložený</string>
+    <string name="invalid_file_format">Neplatný formát súboru</string>
+    <string name="out_of_memory_error">Došlo k chybe s nedostatkom pamäte</string>
+    <string name="an_error_occurred">Došlo k chybe: %s</string>
+    <string name="open_with">Otvoriť pomocou</string>
+    <string name="no_app_found">Nenašla sa žiadna vhodná aplikácia</string>
+    <string name="set_as">Nastaviť ako</string>
+    <string name="value_copied_to_clipboard">Hodnota bola vložená do schránky</string>
+    <string name="unknown">Neznámy</string>
+    <string name="always">Vždy</string>
+    <string name="never">Nikdy</string>
+    <string name="details">Detaily</string>
+    <string name="notes">Poznámky</string>
+    <string name="deleting_folder">Odstraňuje sa priečinok \'%s\'</string>
+    <string name="none">Žiadny</string>
+    <string name="label">Štítok</string>
+
+    <!-- Favorites -->
+    <string name="favorites">Obľúbené</string>
+    <string name="add_favorites">Pridať obľúbené</string>
+    <string name="add_to_favorites">Pridať medzi obľúbené</string>
+    <string name="remove_from_favorites">Odstrániť spomedzi obľúbených</string>
+
+    <!-- Search -->
+    <string name="search">Hľadať</string>
+    <string name="type_2_characters">Zadajte aspoň 2 znaky pre spustenie hľadania.</string>
+
+    <!-- Filters -->
+    <string name="filter">Filtrovať</string>
+    <string name="no_items_found">Nenašli sa žiadne položky.</string>
+    <string name="change_filter">Upraviť filter</string>
+
+    <!-- Permissions -->
+    <string name="no_storage_permissions">Je potrebné povolenie pre prístup k súborom</string>
+    <string name="no_contacts_permission">Je potrebné povolenie pre prístup ku kontaktom</string>
+    <string name="no_camera_permissions">Je potrebné povolenie pre prístup ku kamere</string>
+    <string name="no_audio_permissions">Je potrebné povolenie pre prístup ku zvuku</string>
+
+    <!-- Renaming -->
+    <string name="rename_file">Premenovať súbor</string>
+    <string name="rename_folder">Premenovať priečinok</string>
+    <string name="rename_file_error">Nepodarilo sa premenovať súbor</string>
+    <string name="rename_folder_error">Nepodarilo sa premenovať priečinok</string>
+    <string name="rename_folder_empty">Názov priečinka nemôže byť prázdny</string>
+    <string name="rename_folder_exists">Priečinok s daným názvom už existuje</string>
+    <string name="rename_folder_root">Nepodarilo sa premenovať základný priečinok úložiska</string>
+    <string name="rename_folder_ok">Priečinok bol úspešne premenovaný</string>
+    <string name="renaming_folder">Premenúva sa priečinok</string>
+    <string name="filename_cannot_be_empty">Názov súboru nemôže byť prázdny</string>
+    <string name="filename_invalid_characters">Názov súboru obsahuje neplatné znaky</string>
+    <string name="filename_invalid_characters_placeholder">Názov súboru \'%s\' obsahuje neplatné znaky</string>
+    <string name="extension_cannot_be_empty">Prípona nesmie byť prázdna</string>
+    <string name="source_file_doesnt_exist">Zdrojový súbor %s neexistuje</string>
+
+    <!-- Copy / Move -->
+    <string name="copy">Kopírovať</string>
+    <string name="move">Presunúť</string>
+    <string name="copy_move">Kopírovať / presunúť</string>
+    <string name="copy_to">Kopírovať do</string>
+    <string name="move_to">Presunúť do</string>
+    <string name="source">Zdroj</string>
+    <string name="destination">Cieľ</string>
+    <string name="select_destination">Vyberte cieľovú cestu</string>
+    <string name="click_select_destination">Kliknite sem pre zvolenie cieľovej cesty</string>
+    <string name="invalid_destination">Nepodarilo sa písať na cieľovú polohu</string>
+    <string name="please_select_destination">Prosím zvoľte cieľ</string>
+    <string name="source_and_destination_same">Zdroj a cieľ sa nemôžu zhodovať</string>
+    <string name="copy_failed">Nepodarilo sa skopírovať súbory</string>
+    <string name="copying">Kopírovanie…</string>
+    <string name="copying_success">Súbory boli úspešne skopírované</string>
+    <string name="copy_move_failed">Došlo k chybe</string>
+    <string name="moving">Presúvanie…</string>
+    <string name="moving_success">Súbory boli úspešne presunuté</string>
+    <string name="moving_success_partial">Nepodarilo sa presunúť niektoré súbory</string>
+    <string name="copying_success_partial">Nepodarilo sa skopírovať niektoré súbory</string>
+    <string name="no_files_selected">Niesú označené žiadne súbory</string>
+    <string name="saving">Ukladanie…</string>
+    <string name="could_not_create_folder">Nepodarilo sa vytvoriť priečinok %s</string>
+    <string name="could_not_create_file">Nepodarilo sa vytvoriť súbor %s</string>
+
+    <!-- Create new -->
+    <string name="create_new">Vytvoriť nový</string>
+    <string name="folder">Adresár</string>
+    <string name="file">Súbor</string>
+    <string name="create_new_folder">Vytvoriť nový adresár</string>
+    <string name="name_taken">Súbor alebo adresár s daným názvom už existuje</string>
+    <string name="invalid_name">Názov obsahuje neplatné znaky</string>
+    <string name="empty_name">Prosím zadajte názov</string>
+    <string name="unknown_error_occurred">Došlo k neznámej chybe</string>
+
+    <!-- File operation conflicts -->
+    <string name="file_already_exists">Súbor \"%s\" už existuje</string>
+    <string name="file_already_exists_overwrite">Súbor \"%s\" už existuje. Prepísať?</string>
+    <string name="folder_already_exists">Priečinok \"%s\" už existuje</string>
+    <string name="merge">Zlúčiť</string>
+    <string name="overwrite">Prepísať</string>
+    <string name="skip">Preskočiť</string>
+    <string name="append">Pripnúť \'_1\'</string>
+    <string name="apply_to_all">Použiť na všetky konflikty</string>
+
+    <!-- File picker -->
+    <string name="select_folder">Zvoľte priečinok</string>
+    <string name="select_file">Zvoľte súbor</string>
+    <string name="confirm_storage_access_title">Potvrďte prístup k súborom</string>
+    <string name="confirm_storage_access_text">Pre poskytnutie práva na zápis prosím zvoľte na nasledujúcej obrazovke základný priečǐnok SD karty</string>
+    <string name="confirm_storage_access_text_sd">Ak nevidíte SD kartu, skúste toto</string>
+    <string name="confirm_selection">Potvrdiť výber</string>
+
+    <plurals name="items">
+        <item quantity="one">%d položka</item>
+        <item quantity="few">%d položky</item>
+        <item quantity="other">%d položiek</item>
+    </plurals>
+
+    <!-- Are you sure you want to delete 5 items? -->
+    <plurals name="delete_items">
+        <item quantity="one">%d položku</item>
+        <item quantity="few">%d položky</item>
+        <item quantity="other">%d položiek</item>
+    </plurals>
+
+    <plurals name="deleting_items">
+        <item quantity="one">Odstraňuje sa %d položka</item>
+        <item quantity="few">Odstraňujú sa %d položky</item>
+        <item quantity="other">Odstraňuje sa %d položiek</item>
+    </plurals>
+
+    <!-- Storages -->
+    <string name="select_storage">Zvoľte úložisko</string>
+    <string name="internal">Interné</string>
+    <string name="sd_card">SD karta</string>
+    <string name="root">Koreňový priečinok</string>
+    <string name="wrong_root_selected">Bol zvolený nesprávny koreňový priečinok, prosím zvoľte SD kartu</string>
+    <string name="sd_card_otg_same">Cesta k SD karte a OTG zariadeniu nesmie byť rovnaká</string>
+    <string name="app_on_sd_card">Vyzerá to tak, že máte aplikáciu nainštalovanú na SD karte, čo spôsobí nedostupnosť widgetov. Ani ich neuvidíte na zozname dostupných widgetov.
+        Ide o systémové obmedzenie, čiže ak chcete widgety používať, musíte presunúť aplikáciu späť na internú pamäť.</string>
+
+    <!-- File properties -->
+    <string name="properties">Vlastnosti</string>
+    <string name="path">Cesta</string>
+    <string name="items_selected">Počet zvolených položiek</string>
+    <string name="direct_children_count">Počet priamych podpoložiek</string>
+    <string name="files_count">Celkový počet vnútorných položiek</string>
+    <string name="resolution">Rozlíšenie</string>
+    <string name="duration">Trvanie</string>
+    <string name="artist">Skupina</string>
+    <string name="album">Album</string>
+    <string name="focal_length">Ohnisková vzdialenosť</string>
+    <string name="exposure_time">Dĺžka expozície</string>
+    <string name="iso_speed">Rýchlosť ISO</string>
+    <string name="f_number">Clonové číslo</string>
+    <string name="camera">Fotoaparát</string>
+    <string name="exif">EXIF</string>
+    <string name="song_title">Názov skladby</string>
+
+    <!-- Color customization -->
+    <string name="background_color">Farba pozadia</string>
+    <string name="text_color">Farba textu</string>
+    <string name="primary_color">Primárna farba</string>
+    <string name="foreground_color">Farba popredia</string>
+    <string name="app_icon_color">Farba spúšťacej ikonky apky</string>
+    <string name="restore_defaults">Obnoviť predvolené</string>
+    <string name="change_color">Zmeniť farbu</string>
+    <string name="theme">Téma</string>
+    <string name="changing_color_description">Zmena farby spôsobí prepnutie na Vlastnú tému</string>
+    <string name="save">Uložiť</string>
+    <string name="discard">Zahodiť</string>
+    <string name="undo_changes">Vrátiť zmeny</string>
+    <string name="undo_changes_confirmation">Ste si istý, že chcete vrátiť zmeny?</string>
+    <string name="save_before_closing">Máte neuložené zmeny. Chcete ich uložiť pred ukončením?</string>
+    <string name="apply_to_all_apps">Použiť farby na všetky Jednoduché Aplikácie</string>
+    <string name="share_colors_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!
+        ]]>
+    </string>
+
+    <!-- Themes -->
+    <string name="light_theme">Svetlá</string>
+    <string name="dark_theme">Tmavá</string>
+    <string name="solarized">Solarizovaná</string>
+    <string name="dark_red">Tmavo červená</string>
+    <string name="black_white">Čiernobiela</string>
+    <string name="custom">Vlastná</string>
+    <string name="shared">Zdieľaná</string>
+
+    <!-- What's new -->
+    <string name="whats_new">Novinky</string>
+    <string name="whats_new_disclaimer">* sú tu vypísané iba väčšie aktualizácie, stále sú vykonané aj menšie opravy</string>
+
+    <!-- Actionbar items -->
+    <string name="delete">Vymazať</string>
+    <string name="remove">Odstrániť</string>
+    <string name="rename">Premenovať</string>
+    <string name="share">Zdieľať</string>
+    <string name="share_via">Zdieľať cez</string>
+    <string name="select_all">Vybrať všetko</string>
+    <string name="hide">Skryť</string>
+    <string name="unhide">Odkryť</string>
+    <string name="hide_folder">Skryť priečinok</string>
+    <string name="unhide_folder">Odkryť priečinok</string>
+    <string name="temporarily_show_hidden">Dočasne zobraziť skryté</string>
+    <string name="stop_showing_hidden">Ukončiť zobrazovanie skrytých médií</string>
+    <string name="maximum_share_reached">Nemôžete zdieľať toľko obsahu naraz</string>
+    <string name="empty_and_disable_recycle_bin">Vysypať a deaktivovať odpadkový kôš</string>
+    <string name="undo">Späť</string>
+    <string name="redo">Obnoviť</string>
+
+    <!-- Sorting -->
+    <string name="sort_by">Na zoradenie použiť</string>
+    <string name="name">Názov</string>
+    <string name="size">Veľkosť</string>
+    <string name="last_modified">Dátum poslednej úpravy</string>
+    <string name="date_taken">Dátum vytvorenia</string>
+    <string name="title">Názov</string>
+    <string name="filename">Názov súboru</string>
+    <string name="extension">Prípona</string>
+    <string name="ascending">Vzostupne</string>
+    <string name="descending">Klesajúco</string>
+    <string name="use_for_this_folder">Použiť iba pre tento priečinok</string>
+
+    <!-- Confirmation dialog -->
+    <string name="proceed_with_deletion">Ste si istý, že chcete pokračovať s vymazaním?</string>
+    <string name="deletion_confirmation">Ste si istý, že chcete vymazať %s?</string>    <!-- Are you sure you want to delete 5 items? -->
+    <string name="move_to_recycle_bin_confirmation">Ste si istý, že chcete vyhodiť %s do koša?</string>    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="are_you_sure_delete">Ste si istý, že chcete vymazať túto položku?</string>
+    <string name="are_you_sure_recycle_bin">Ste si istý, že chcete vyhodiť túto položku do odpadkového koša?</string>
+    <string name="do_not_ask_again">Nepýtať sa už v tomto spustení</string>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
+
+    <plurals name="delete_warning">
+        <item quantity="one">UPOZORNENIE: Chystáte sa vymazať priečinok</item>
+        <item quantity="few">UPOZORNENIE: Chystáte sa vymazať %d priečinky</item>
+        <item quantity="other">UPOZORNENIE: Chystáte sa vymazať %d priečinkov</item>
+    </plurals>
+
+    <!-- Password protection -->
+    <string name="pin">PIN</string>
+    <string name="enter_pin">Zadajte PIN</string>
+    <string name="please_enter_pin">Prosím zadajte PIN</string>
+    <string name="wrong_pin">Nesprávny PIN</string>
+    <string name="repeat_pin">Zopakujte PIN</string>
+    <string name="pattern">Vzor</string>
+    <string name="insert_pattern">Zadajte vzor</string>
+    <string name="wrong_pattern">Nesprávny vzor</string>
+    <string name="repeat_pattern">Zopakujte vzor</string>
+    <string name="fingerprint">Odtlačok</string>
+    <string name="add_fingerprint">Pridať odtlačok prsta</string>
+    <string name="place_finger">Prosím priložte prst ku senzoru odtlačku prsta</string>
+    <string name="authentication_failed">Overovanie zlyhalo</string>
+    <string name="authentication_blocked">Overovanie je zablokované, prosím skúste o chvíľu</string>
+    <string name="no_fingerprints_registered">Nemáte zaregistrované žiadne odtlačky, prosím pridajte nejaké v Nastaveniach zariadenia</string>
+    <string name="go_to_settings">Ísť do nastavení</string>
+    <string name="protection_setup_successfully">Heslo bolo úspešne nastavené. Ak ho zabudnete, prosím preinštalujte aplikáciu.</string>
+    <string name="fingerprint_setup_successfully">Ochrana bola úspešne nastavená. Prosím preinštalujte aplikáciu v prípade problémov s jej zmenou.</string>
+
+    <!-- Times -->
+    <string name="yesterday">Včera</string>
+    <string name="today">Dnes</string>
+    <string name="tomorrow">Zajtra</string>
+    <string name="seconds_raw">sekundy</string>
+    <string name="minutes_raw">minúty</string>
+    <string name="hours_raw">hodiny</string>
+    <string name="days_raw">dni</string>
+
+    <plurals name="seconds">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="other">%d sekúnd</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d minúta</item>
+        <item quantity="few">%d minúty</item>
+        <item quantity="other">%d minút</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="other">%d hodín</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d deň</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="other">%d dní</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d týždeň</item>
+        <item quantity="few">%d týždne</item>
+        <item quantity="other">%d týždňov</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d mesiac</item>
+        <item quantity="few">%d mesiace</item>
+        <item quantity="other">%d mesiacov</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d rok</item>
+        <item quantity="few">%d roky</item>
+        <item quantity="other">%d rokov</item>
+    </plurals>
+
+    <!-- For example: I will be there in 5 minutes -->
+    <plurals name="in_seconds">
+        <item quantity="one">%d sekundu</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="other">%d sekúnd</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d minútu</item>
+        <item quantity="few">%d minúty</item>
+        <item quantity="other">%d minút</item>
+    </plurals>
+    <plurals name="in_hours">
+        <item quantity="one">%d hodinu</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="other">%d hodín</item>
+    </plurals>
+
+    <!-- For example: Event reminder: 3 minutes before -->
+    <plurals name="seconds_before">
+        <item quantity="one">%d sekundu vopred</item>
+        <item quantity="few">%d sekundy vopred</item>
+        <item quantity="other">%d sekúnd vopred</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="one">%d minútu vopred</item>
+        <item quantity="few">%d minúty vopred</item>
+        <item quantity="other">%d minút vopred</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="one">%d hodinu vopred</item>
+        <item quantity="few">%d hodiny vopred</item>
+        <item quantity="other">%d hodín vopred</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="one">%d deň vopred</item>
+        <item quantity="few">%d dni vopred</item>
+        <item quantity="other">%d dní vopred</item>
+    </plurals>
+
+    <!-- For example: Postpone reminder by 3 minutes -->
+    <plurals name="by_seconds">
+        <item quantity="one">%d sekundu</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="other">%d sekúnd</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d minútu</item>
+        <item quantity="few">%d minúty</item>
+        <item quantity="other">%d minút</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d hodinu</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="other">%d hodín</item>
+    </plurals>
+
+    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+    <string name="alarm_goes_off_in">Zostávajúci čas do zvonenia budíka:\n%s</string>
+    <string name="reminder_triggers_in">Zostávajúci čas do pripomienky:\n%s</string>
+    <string name="alarm_warning">Pred tým, ako by ste sa na budík spoliehali, sa prosím uistite, že funguje správne. Niektoré systémové obmedzenia spojené so zlepšením výdrže batérie môžu spôsobiť problémy.</string>
+    <string name="reminder_warning">Pred tým, ako by ste sa na pripomienky spoliehali, sa prosím uistite, že fungujú správne. Niektoré systémové obmedzenia spojené so zlepšením výdrže batérie môžu spôsobiť problémy.</string>
+
+    <!-- Alarms -->
+    <string name="alarm">Budík</string>
+    <string name="snooze">Odložiť</string>
+    <string name="dismiss">Odstrániť</string>
+    <string name="no_reminder">Žiadna pripomienka</string>
+    <string name="at_start">Na začiatku</string>
+    <string name="system_sounds">Systémové zvuky</string>
+    <string name="your_sounds">Vaše zvuky</string>
+    <string name="add_new_sound">Pridať nový zvuk</string>
+    <string name="no_sound">Žiadny zvuk</string>
+
+    <!-- Settings -->
+    <string name="settings">Nastavenia</string>
+    <string name="purchase_simple_thank_you">Kúpiť Jednoduché Ďakujem</string>
+    <string name="customize_colors">Upraviť farby</string>
+    <string name="customize_widget_colors">Upraviť farby widgetov</string>
+    <string name="use_english_language">Použiť angličtinu</string>
+    <string name="avoid_whats_new">Nikdy nezobrazovať Novinky po spustení</string>
+    <string name="show_hidden_items">Zobraziť skryté položky</string>
+    <string name="font_size">Veľkosť písma</string>
+    <string name="small">Malé</string>
+    <string name="medium">Stredné</string>
+    <string name="large">Veľké</string>
+    <string name="extra_large">Extra veľké</string>
+    <string name="password_protect_hidden_items">Uzamknúť viditeľnosť skrytých položiek heslom</string>
+    <string name="password_protect_whole_app">Uzamknúť heslom celú aplikáciu</string>
+    <string name="keep_last_modified">Ponechať starú hodnotu naposledy-upravené pri kopírovaní/presúvaní/premenúvaní súborov</string>
+    <string name="show_info_bubble">Zobraziť informačnú bublinu pri prehliadaní položiek ťahaním posuvníka</string>
+    <string name="prevent_phone_from_sleeping">Zabrániť uspaniu zariadenia kým je apka v popredí</string>
+    <string name="skip_delete_confirmation">Stále preskočiť potvrdenie vymazania súborov</string>
+    <string name="enable_pull_to_refresh">Povoliť obnovenie súborov potiahnutím zhora</string>
+    <string name="use_24_hour_time_format">Použiť 24 hodinový časový formát</string>
+    <string name="sunday_first">Začať týždeň nedeľou</string>
+    <string name="widgets">Widgety</string>
+    <string name="use_same_snooze">Použiť stále rovnaký čas s Odložiť</string>
+    <string name="snooze_time">Čas odloženia</string>
+    <string name="vibrate_on_button_press">Vibrovať pri stlačení tlačidiel</string>
+    <string name="move_items_into_recycle_bin">Presunúť položky miesto vymazania do odpadkového koša</string>
+    <string name="recycle_bin_cleaning_interval">Interval vysypávania koša</string>
+    <string name="empty_recycle_bin">Vysypať odpadkový kôš</string>
+    <string name="force_portrait_mode">Stále použiť režim na výšku</string>
+
+    <!-- Setting sections -->
+    <string name="visibility">Viditeľnosť</string>
+    <string name="security">Bezpečnosť</string>
+    <string name="scrolling">Skrolovanie</string>
+    <string name="file_operations">Súborové operácie</string>
+    <string name="recycle_bin">Odpadkový kôš</string>
+    <string name="saving_label">Ukladanie</string>
+    <string name="startup">Po spustení</string>
+    <string name="text">Text</string>
+
+    <!-- Recycle Bin -->
+    <string name="restore_this_file">Obnoviť tento súbor</string>
+    <string name="restore_selected_files">Obnoviť vybrané súbory</string>
+    <string name="restore_all_files">Obnoviť všetky súbory</string>
+    <string name="recycle_bin_emptied">Odpadkový kôš bol vyprázdnený</string>
+    <string name="files_restored_successfully">Súbory boli úspešne obnovené</string>
+    <string name="empty_recycle_bin_confirmation">Ste si istý, že chcete vysypať odpadkový kôš? Súbory budú navždy stratené.</string>
+    <string name="recycle_bin_empty">Odpadkový kôš je prázdny</string>
+
+    <!-- Import / Export -->
+    <string name="importing">Importovanie…</string>
+    <string name="exporting">Exportovanie…</string>
+    <string name="importing_successful">Importovanie bolo úspešné</string>
+    <string name="exporting_successful">Exportovanie bolo úspešné</string>
+    <string name="importing_failed">Importovanie zlyhalo</string>
+    <string name="exporting_failed">Exportovanie zlyhalo</string>
+    <string name="importing_some_entries_failed">Importovanie niektorých položiek zlyhalo</string>
+    <string name="exporting_some_entries_failed">Exportovanie niektorých položiek zlyhalo</string>
+    <string name="no_entries_for_exporting">Nenašli sa žiadne položky pre export</string>
+
+    <!-- OTG devices -->
+    <string name="otg">OTG</string>
+    <string name="confirm_otg_storage_access_text">Pre poskytnutie práv prosím zvoľte na nasledujúcej obrazovke základný priečinok OTG zariadenia</string>
+    <string name="wrong_root_selected_otg">Bol zvolený nesprávny koreňový priečinok, prosím zvoľte OTG zariadenie</string>
+
+    <!-- Dates -->
+    <string name="january">Január</string>
+    <string name="february">Február</string>
+    <string name="march">Marec</string>
+    <string name="april">Apríl</string>
+    <string name="may">Máj</string>
+    <string name="june">Jún</string>
+    <string name="july">Júl</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">Október</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <!-- in January -->
+    <string name="in_january">v januári</string>
+    <string name="in_february">vo februári</string>
+    <string name="in_march">v marci</string>
+    <string name="in_april">v apríli</string>
+    <string name="in_may">v máji</string>
+    <string name="in_june">v júni</string>
+    <string name="in_july">v júli</string>
+    <string name="in_august">v auguste</string>
+    <string name="in_september">v septembri</string>
+    <string name="in_october">v októbri</string>
+    <string name="in_november">v novembri</string>
+    <string name="in_december">v decembri</string>
+
+    <string name="monday">Pondelok</string>
+    <string name="tuesday">Utorok</string>
+    <string name="wednesday">Streda</string>
+    <string name="thursday">Štvrtok</string>
+    <string name="friday">Piatok</string>
+    <string name="saturday">Sobota</string>
+    <string name="sunday">Nedeľa</string>
+
+    <string name="monday_letter">P</string>
+    <string name="tuesday_letter">U</string>
+    <string name="wednesday_letter">S</string>
+    <string name="thursday_letter">Š</string>
+    <string name="friday_letter">P</string>
+    <string name="saturday_letter">S</string>
+    <string name="sunday_letter">N</string>
+
+    <string name="monday_short">Po</string>
+    <string name="tuesday_short">Ut</string>
+    <string name="wednesday_short">St</string>
+    <string name="thursday_short">Št</string>
+    <string name="friday_short">Pi</string>
+    <string name="saturday_short">So</string>
+    <string name="sunday_short">Ne</string>
+
+    <!-- About -->
+    <string name="about">O aplikácií</string>
+    <string name="website_label">Pre zdrojové kódy navštívte</string>
+    <string name="email_label">Odozvu a návrhy posielajte na</string>
+    <string name="more_apps_underlined"><u>Viac aplikácií</u></string>
+    <string name="third_party_licences_underlined"><u>Licencie tretích strán</u></string>
+    <string name="invite_friends_underlined"><u>Pozvať priateľov</u></string>
+    <string name="share_text">Čauko, skús %1$s na %2$s</string>
+    <string name="invite_via">Pozvať cez</string>
+    <string name="rate_us_underlined"><u>Ohodnotiť aplikáciu</u></string>
+    <string name="donate">Podporiť</string>
+    <string name="donate_underlined"><u>Podporiť</u></string>
+    <string name="follow_us">Sledujte nás</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="additional_info">Dodatočné informácie</string>
+    <string name="app_version">Verzia aplikácie: %s</string>
+    <string name="device_os">Operačný systém zariadenia: %s</string>
+    <string name="donate_please">
+        <![CDATA[
+            Zdravím,<br><br>
+            dúfam, že sa vám moja apka páči. Neobsahuje žiadne reklamy, podporte prosím jej vývoj zakúpením aplikácie <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Jednoduché ďakujem</a>. Zaručí to aj to, že tento dialóg už neuvidíte.<br><br>
+            Ďakujem!
+        ]]>
+    </string>
+    <string name="purchase">Zakúpiť</string>
+    <string name="update_thank_you">Prosím aktualizujte Jednoduché Ďakujem na najnovšiu verziu</string>
+    <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prečítajte Často Kladené Otázky, možno v nich nájdete svoju odpoveď.</string>
+    <string name="read_it">Prečítať</string>
+
+    <!-- New app (do not translate anything on the 4th line) -->
+    <string name="new_app">
+        <![CDATA[
+            Zdravím,<br><br>
+            iba vám oznamujem, že bola nedávno vydaná nová aplikácia:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            Viete ju stiahnuť kliknutím na názov.<br><br>
+            Vďaka
+        ]]>
+    </string>
+
+    <!-- FAQ -->
+    <string name="frequently_asked_questions">Často kladené otázky</string>
+    <string name="before_asking_question">Predtým, ako sa niečo opýtate si prosíme preštudujte</string>
+    <string name="faq_1_title_commons">Prečo nevidím widget tejto apky na zozname widgetov?</string>
+    <string name="faq_1_text_commons">Je to pravdepodobne spôsobené tým, že ste apku presunuli na SD kartu. Ide o systémové obmedzenie, ktoré v tomto prípade skryje widget apky.
+        Jediným riešením je presunutie apky späť na internú pamäť cez nastavnenia zariadenia.</string>
+    <string name="faq_2_title_commons">Chcem vás podporiť, ale neviem poslať peniaze. Viem pre vás urobiť aj niečo iné?</string>
+    <string name="faq_2_text_commons">Áno, samozrejme. Môžete napr. šíriť apky medzi známymi, alebo nám poslať užitočnú odozvu a hodnotenia. Viete pomôcť aj preložením apiek do nových jazykov, alebo upraviť existujúce preklady.
+        Návod nájdete na https://github.com/SimpleMobileTools/General-Discussion , alebo mi v prípade potreby pošlite email na hello@simplemobiletools.com.</string>
+    <string name="faq_3_title_commons">Náhodou som vymazal niektoré súbory, viem ich obnoviť?</string>
+    <string name="faq_3_text_commons">Žiaľ, nie. Súbory sú mazané okamžite po potvrdení, nie je dostupný žiadny smetný kôš.</string>
+    <string name="faq_4_title_commons">Nepáčia sa mi farby widgetu, viem ich zmeniť?</string>
+    <string name="faq_4_text_commons">Áno, po potiahnutí widgetu na plochu sa zobrazí konfiguračná obrazovka. Kliknutím na farebné štvorčeky v ľavom dolnom rohu viete zvoliť nové. Potiahnutím posuvníka viete upraviť aj priehľadnosť.</string>
+    <string name="faq_5_title_commons">Viem nejakým spôsobom obnoviť vymazané súbory?</string>
+    <string name="faq_5_text_commons">Ak dané súbory boli skutočne vymazané, tak nie. V nastaveniach aplikácie ale viete nastaviť používanie odpadkového koša miesto vymazávania súborov.</string>
+
+    <!-- License -->
+    <string name="notice">Táto aplikácia používa na uľahčenie práce nasledovné knižnice tretích strán. Ďakujeme.</string>
+    <string name="third_party_licences">Knižnice tretích strán</string>
+    <string name="kotlin_title">Kotlin (programovací jazyk)</string>
+    <string name="subsampling_title">Subsampling Scale Image View (priblížiteľné obrázky)</string>
+    <string name="glide_title">Glide (načítavanie a cachovanie obrázkov)</string>
+    <string name="picasso_title">Picasso (načítavanie a cachovanie obrázkov)</string>
+    <string name="cropper_title">Android Image Cropper (orezávanie a otáčanie obrázkov)</string>
+    <string name="multiselect_title">RecyclerView MultiSelect (označovanie viacerých položiek zo zoznamu)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (swipovanie sprava vľavo)</string>
+    <string name="joda_title">Joda-Time (náhrada dátumov v Jave)</string>
+    <string name="stetho_title">Stetho (odladenie databáz)</string>
+    <string name="otto_title">Otto (event bus)</string>
+    <string name="photoview_title">PhotoView (priblížiteľné GIFká)</string>
+    <string name="pattern_title">PatternLockView (ochrana vzorom)</string>
+    <string name="reprint_title">Reprint (ochrana odtlačkom prsta)</string>
+    <string name="gif_drawable_title">Gif Drawable (zobrazovanie GIF)</string>
+    <string name="autofittextview_title">AutoFitTextView (text meniaci veľkosť)</string>
+    <string name="robolectric_title">Robolectric (testovací framework)</string>
+    <string name="espresso_title">Espresso (testovací pomocník)</string>
+    <string name="gson_title">Gson (parsovač JSON)</string>
+    <string name="leak_canary_title">Leak Canary (detektor únikov pamäte)</string>
+    <string name="number_picker_title">Number Picker (upraviteľný vyberač čísel)</string>
+    <string name="exoplayer_title">ExoPlayer (prehrávač videí)</string>
+    <string name="panorama_view_title">VR Panorama View (zobrazovanie panorám)</string>
+    <string name="sanselan_title">Apache Sanselan (čítanie metadát obrázkov)</string>
+    <string name="filters_title">Android Photo Filters (filtre obrázkov)</string>
+</resources>

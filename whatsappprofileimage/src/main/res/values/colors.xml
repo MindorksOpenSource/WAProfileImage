@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="dialogcustomization_card_shadow">#D4D4D4</color>
+  <color name="dialogcustomization_black_overlay">#60000000</color>
+  <color name="control_background">#cc4285f4</color>
+</resources>
